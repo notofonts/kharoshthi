@@ -1,29 +1,8 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
-<details><summary><b>[12] NotoSansKharoshthi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Copyright notices match canonical pattern in fonts (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_copyright">com.google.fonts/check/font_copyright</a>)</summary><div>
-
-
-* 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
-But instead we have got:
-"Copyright 2017-2022 Google Inc. All Rights Reserved." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSansKharoshthi/googlefonts/ttf/NotoSansKharoshthi-Regular.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
+<details><summary><b>[7] NotoSansKharoshthi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
 * 🔥 **FAIL** qa/shaping_tests/kharoshthi.json: Expected and actual shaping not matching
@@ -78,6 +57,34 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14
 </svg>
 
 
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">𐨧𐨿𐨩</span> (fontdiff-und-Khar_diffenator.html)</li>
+
+
+<pre>Expected: SubYa.alt=0@412,15+0|Bha_khar=0@100,0+798</pre>
+
+
+
+<pre>Got     : SubYa.alt=0@779,157+0|Bha_khar=0@100,0+798</pre>
+
+
+
+<pre>                      ^^^
+</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M-392.0,-197.0Q-364.0,-210.0 -330.0,-210.0Q-238.0,-210.0 -228.0,-125.0Q-235.0,-126.0 -243.0,-126.0Q-251.0,-126.0 -259.0,-126.0Q-270.0,-126.0 -281.0,-124.5Q-292.0,-123.0 -304.0,-121.0L-274.0,-50.0Q-269.0,-51.0 -262.5,-51.5Q-256.0,-52.0 -247.0,-52.0Q-204.0,-52.0 -188.5,-34.0Q-173.0,-16.0 -160.0,23.0L-81.0,9.0Q-88.0,-42.0 -103.5,-63.0Q-119.0,-84.0 -148.0,-100.0Q-148.0,-181.0 -196.5,-227.5Q-245.0,-274.0 -330.0,-274.0Q-381.0,-274.0 -419.0,-259.0L-392.0,-197.0Z"  transform="translate(779, 958)"/>
+<path d="M99.0,635.0L113.0,709.0L606.0,709.0L592.0,635.0L399.0,635.0Q385.0,592.0 367.0,534.0L369.0,534.0Q447.0,524.0 506.0,495.0Q565.0,466.0 598.5,417.5Q632.0,369.0 632.0,298.0Q632.0,252.0 616.0,211.5Q600.0,171.0 572.0,133.0L501.0,165.0Q518.0,192.0 532.0,224.5Q546.0,257.0 546.0,291.0Q546.0,359.0 497.0,402.0Q448.0,445.0 347.0,463.0L345.0,463.0Q322.0,383.0 299.0,296.5Q276.0,210.0 256.0,129.0Q236.0,48.0 223.0,-14.0L145.0,-1.0Q153.0,61.0 170.5,141.5Q188.0,222.0 211.0,309.0Q234.0,396.0 259.5,480.5Q285.0,565.0 310.0,635.0L99.0,635.0Z"  transform="translate(100, 801)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 798 2370" transform="matrix(1 0 0 -1 0 0)">
+<path d="M-392.0,-197.0Q-364.0,-210.0 -330.0,-210.0Q-238.0,-210.0 -228.0,-125.0Q-235.0,-126.0 -243.0,-126.0Q-251.0,-126.0 -259.0,-126.0Q-270.0,-126.0 -281.0,-124.5Q-292.0,-123.0 -304.0,-121.0L-274.0,-50.0Q-269.0,-51.0 -262.5,-51.5Q-256.0,-52.0 -247.0,-52.0Q-204.0,-52.0 -188.5,-34.0Q-173.0,-16.0 -160.0,23.0L-81.0,9.0Q-88.0,-42.0 -103.5,-63.0Q-119.0,-84.0 -148.0,-100.0Q-148.0,-181.0 -196.5,-227.5Q-245.0,-274.0 -330.0,-274.0Q-381.0,-274.0 -419.0,-259.0L-392.0,-197.0Z"  transform="translate(412, 816)"/>
+<path d="M99.0,635.0L113.0,709.0L606.0,709.0L592.0,635.0L399.0,635.0Q385.0,592.0 367.0,534.0L369.0,534.0Q447.0,524.0 506.0,495.0Q565.0,466.0 598.5,417.5Q632.0,369.0 632.0,298.0Q632.0,252.0 616.0,211.5Q600.0,171.0 572.0,133.0L501.0,165.0Q518.0,192.0 532.0,224.5Q546.0,257.0 546.0,291.0Q546.0,359.0 497.0,402.0Q448.0,445.0 347.0,463.0L345.0,463.0Q322.0,383.0 299.0,296.5Q276.0,210.0 256.0,129.0Q236.0,48.0 223.0,-14.0L145.0,-1.0Q153.0,61.0 170.5,141.5Q188.0,222.0 211.0,309.0Q234.0,396.0 259.5,480.5Q285.0,565.0 310.0,635.0L99.0,635.0Z"  transform="translate(100, 801)"/>
+</svg>
+
+
 </div> [code: shaping-regression]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
 
@@ -109,13 +116,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), commaaccentcomb (U+0326), commaturnedabovecomb (U+0312), dieresiscomb (U+0308), dotaccentcomb (U+0307), gravecomb (U+0300) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
@@ -155,8 +155,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 5 | 7 | 115 | 8 | 100 | 0 |
-| 0% | 2% | 3% | 49% | 3% | 43% | 0% |
+| 0 | 1 | 6 | 110 | 7 | 103 | 0 |
+| 0% | 0% | 3% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
