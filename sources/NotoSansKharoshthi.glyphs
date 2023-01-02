@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/SYa_khar"
+);
 classes = (
 {
 code = "";
@@ -258,6 +261,10 @@ name = "Don't use Production Names";
 value = 1;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -280,10 +287,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2017-05-01 18:36:42 +0000";
@@ -536,33 +539,29 @@ unicode = 2010;
 },
 {
 glyphname = A_khar;
-lastChange = "2019-12-16 17:27:39 +0000";
+lastChange = "2023-01-02 10:45:00 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{334, 0}";
-},
-{
-name = top;
-position = "{327, 712}";
+name = Anchor6;
+position = "{332, 0}";
 },
 {
 name = anusvara;
 position = "{287, 0}";
 },
 {
+name = bottom;
+position = "{334, 0}";
+},
+{
 name = cauda;
-position = "{431, -6}";
+position = "{368, -15}";
 },
 {
-name = uvowel;
-position = "{371, 60}";
-},
-{
-name = subjoined_ma;
-position = "{370, 186}";
+name = ivowel;
+position = "{302, 425}";
 },
 {
 name = lengthmark;
@@ -577,12 +576,16 @@ name = subjoined_la;
 position = "{397, 275}";
 },
 {
-name = ivowel;
-position = "{302, 425}";
+name = subjoined_ma;
+position = "{370, 186}";
 },
 {
-name = Anchor6;
-position = "{332, 0}";
+name = top;
+position = "{327, 712}";
+},
+{
+name = uvowel;
+position = "{371, 60}";
 }
 );
 layerId = UUID0;
@@ -627,13 +630,17 @@ category = Letter;
 },
 {
 glyphname = I_khar;
-lastChange = "2019-12-16 17:27:09 +0000";
+lastChange = "2023-01-02 10:45:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = _ivowel;
 position = "{-131, 560}";
+},
+{
+name = cauda;
+position = "{-156, 362}";
 }
 );
 layerId = UUID0;
@@ -798,11 +805,11 @@ layers = (
 {
 anchors = (
 {
-name = _top;
+name = _Anchor34;
 position = "{-263, 714}";
 },
 {
-name = _Anchor34;
+name = _top;
 position = "{-263, 714}";
 }
 );
@@ -919,11 +926,11 @@ name = Anchor40;
 position = "{-221, -243}";
 },
 {
-name = _bottom;
+name = _Anchor40;
 position = "{-220, 0}";
 },
 {
-name = _Anchor40;
+name = _bottom;
 position = "{-220, 0}";
 }
 );
@@ -1015,11 +1022,11 @@ name = Anchor40;
 position = "{-210, -207}";
 },
 {
-name = _anusvara;
+name = _Anchor38;
 position = "{-209, 0}";
 },
 {
-name = _Anchor38;
+name = _anusvara;
 position = "{-209, 0}";
 }
 );
@@ -1069,11 +1076,11 @@ name = Anchor34;
 position = "{-200, 913}";
 },
 {
-name = _top;
+name = _Anchor34;
 position = "{-200, 714}";
 },
 {
-name = _Anchor34;
+name = _top;
 position = "{-200, 714}";
 }
 );
@@ -1123,41 +1130,37 @@ subCategory = Nonspacing;
 },
 {
 glyphname = Ka_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:45:33 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{644, 13}";
+},
+{
+name = Anchor8;
+position = "{333, 0}";
+},
+{
 name = SubYa;
 position = "{330, -7}";
-},
-{
-name = bottom;
-position = "{347, 0}";
-},
-{
-name = top;
-position = "{312, 712}";
 },
 {
 name = anusvara;
 position = "{297, 0}";
 },
 {
+name = bottom;
+position = "{347, 0}";
+},
+{
 name = cauda;
-position = "{407, -52}";
+position = "{368, -16}";
 },
 {
-name = uvowel;
-position = "{371, 60}";
-},
-{
-name = subjoined_ma;
-position = "{359, 186}";
-},
-{
-name = vocalic_r;
-position = "{417, 155}";
+name = ivowel;
+position = "{302, 425}";
 },
 {
 name = lengthmark;
@@ -1172,16 +1175,20 @@ name = subjoined_la;
 position = "{397, 275}";
 },
 {
-name = ivowel;
-position = "{302, 425}";
+name = subjoined_ma;
+position = "{359, 186}";
 },
 {
-name = Anchor6;
-position = "{644, 13}";
+name = top;
+position = "{312, 712}";
 },
 {
-name = Anchor8;
-position = "{333, 0}";
+name = uvowel;
+position = "{371, 60}";
+},
+{
+name = vocalic_r;
+position = "{417, 155}";
 }
 );
 layerId = UUID0;
@@ -1242,37 +1249,29 @@ category = Letter;
 },
 {
 glyphname = Kha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:46:59 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{286, 0}";
-},
-{
-name = top;
-position = "{318, 712}";
+name = Anchor6;
+position = "{349, 0}";
 },
 {
 name = anusvara;
 position = "{315, 1}";
 },
 {
+name = bottom;
+position = "{286, 0}";
+},
+{
 name = cauda;
-position = "{448, -6}";
+position = "{385, -15}";
 },
 {
-name = uvowel;
-position = "{389, 60}";
-},
-{
-name = subjoined_ma;
-position = "{376, 186}";
-},
-{
-name = vocalic_r;
-position = "{412, 125}";
+name = ivowel;
+position = "{276, 425}";
 },
 {
 name = lengthmark;
@@ -1287,12 +1286,20 @@ name = subjoined_la;
 position = "{386, 65}";
 },
 {
-name = ivowel;
-position = "{276, 425}";
+name = subjoined_ma;
+position = "{376, 186}";
 },
 {
-name = Anchor6;
-position = "{349, 0}";
+name = top;
+position = "{318, 712}";
+},
+{
+name = uvowel;
+position = "{389, 60}";
+},
+{
+name = vocalic_r;
+position = "{412, 125}";
 }
 );
 layerId = UUID0;
@@ -1343,37 +1350,29 @@ category = Letter;
 },
 {
 glyphname = Ga_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:48:20 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{340, 0}";
-},
-{
-name = top;
-position = "{375, 712}";
+name = Anchor6;
+position = "{244, 18}";
 },
 {
 name = anusvara;
 position = "{250, -10}";
 },
 {
+name = bottom;
+position = "{340, 0}";
+},
+{
 name = cauda;
-position = "{349, -20}";
+position = "{287, -15}";
 },
 {
-name = uvowel;
-position = "{303, 150}";
-},
-{
-name = subjoined_ma;
-position = "{266, 186}";
-},
-{
-name = vocalic_r;
-position = "{282, 175}";
+name = ivowel;
+position = "{217, 426}";
 },
 {
 name = lengthmark;
@@ -1388,12 +1387,20 @@ name = subjoined_la;
 position = "{330, 205}";
 },
 {
-name = ivowel;
-position = "{217, 426}";
+name = subjoined_ma;
+position = "{266, 186}";
 },
 {
-name = Anchor6;
-position = "{244, 18}";
+name = top;
+position = "{375, 712}";
+},
+{
+name = uvowel;
+position = "{303, 150}";
+},
+{
+name = vocalic_r;
+position = "{282, 175}";
 }
 );
 layerId = UUID0;
@@ -1455,41 +1462,37 @@ category = Letter;
 },
 {
 glyphname = Gha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:47:08 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{488, 13}";
+},
+{
+name = Anchor8;
+position = "{243, 1}";
+},
+{
 name = SubYa;
 position = "{240, 0}";
-},
-{
-name = bottom;
-position = "{240, 0}";
-},
-{
-name = top;
-position = "{375, 712}";
 },
 {
 name = anusvara;
 position = "{252, -11}";
 },
 {
+name = bottom;
+position = "{240, 0}";
+},
+{
 name = cauda;
-position = "{349, -21}";
+position = "{287, -15}";
 },
 {
-name = uvowel;
-position = "{303, 150}";
-},
-{
-name = subjoined_ma;
-position = "{256, 186}";
-},
-{
-name = vocalic_r;
-position = "{275, 115}";
+name = ivowel;
+position = "{217, 426}";
 },
 {
 name = lengthmark;
@@ -1504,16 +1507,20 @@ name = subjoined_la;
 position = "{290, 175}";
 },
 {
-name = ivowel;
-position = "{217, 426}";
+name = subjoined_ma;
+position = "{256, 186}";
 },
 {
-name = Anchor6;
-position = "{488, 13}";
+name = top;
+position = "{375, 712}";
 },
 {
-name = Anchor8;
-position = "{243, 1}";
+name = uvowel;
+position = "{303, 150}";
+},
+{
+name = vocalic_r;
+position = "{275, 115}";
 }
 );
 layerId = UUID0;
@@ -1589,41 +1596,33 @@ category = Letter;
 },
 {
 glyphname = Ca_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:47:18 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{262, 0}";
 },
 {
-name = bottom;
-position = "{292, 0}";
-},
-{
-name = top;
-position = "{314, 712}";
+name = SubYa;
+position = "{262, 0}";
 },
 {
 name = anusvara;
 position = "{305, 0}";
 },
 {
+name = bottom;
+position = "{292, 0}";
+},
+{
 name = cauda;
-position = "{344, -40}";
+position = "{291, -17}";
 },
 {
-name = uvowel;
-position = "{349, 145}";
-},
-{
-name = subjoined_ma;
-position = "{350, 186}";
-},
-{
-name = vocalic_r;
-position = "{402, 175}";
+name = ivowel;
+position = "{142, 425}";
 },
 {
 name = lengthmark;
@@ -1638,12 +1637,20 @@ name = subjoined_la;
 position = "{412, 205}";
 },
 {
-name = ivowel;
-position = "{142, 425}";
+name = subjoined_ma;
+position = "{350, 186}";
 },
 {
-name = Anchor6;
-position = "{262, 0}";
+name = top;
+position = "{314, 712}";
+},
+{
+name = uvowel;
+position = "{349, 145}";
+},
+{
+name = vocalic_r;
+position = "{402, 175}";
 }
 );
 layerId = UUID0;
@@ -1699,41 +1706,37 @@ category = Letter;
 },
 {
 glyphname = Cha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:47:25 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{539, 89}";
+},
+{
+name = Anchor8;
+position = "{269, 18}";
+},
+{
 name = SubYa;
 position = "{265, 0}";
-},
-{
-name = bottom;
-position = "{317, 0}";
-},
-{
-name = top;
-position = "{420, 712}";
 },
 {
 name = anusvara;
 position = "{268, -10}";
 },
 {
+name = bottom;
+position = "{317, 0}";
+},
+{
 name = cauda;
-position = "{349, -59}";
+position = "{312, -15}";
 },
 {
-name = uvowel;
-position = "{328, 150}";
-},
-{
-name = subjoined_ma;
-position = "{302, 186}";
-},
-{
-name = vocalic_r;
-position = "{311, 155}";
+name = ivowel;
+position = "{252, 425}";
 },
 {
 name = lengthmark;
@@ -1748,16 +1751,20 @@ name = subjoined_la;
 position = "{367, 75}";
 },
 {
-name = ivowel;
-position = "{252, 425}";
+name = subjoined_ma;
+position = "{302, 186}";
 },
 {
-name = Anchor6;
-position = "{539, 89}";
+name = top;
+position = "{420, 712}";
 },
 {
-name = Anchor8;
-position = "{269, 18}";
+name = uvowel;
+position = "{328, 150}";
+},
+{
+name = vocalic_r;
+position = "{311, 155}";
 }
 );
 layerId = UUID0;
@@ -1838,41 +1845,33 @@ category = Letter;
 },
 {
 glyphname = Ja_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:47:34 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{101, 0}";
 },
 {
-name = bottom;
-position = "{279, 0}";
-},
-{
-name = top;
-position = "{338, 712}";
+name = SubYa;
+position = "{101, 0}";
 },
 {
 name = anusvara;
 position = "{158, 5}";
 },
 {
+name = bottom;
+position = "{279, 0}";
+},
+{
 name = cauda;
-position = "{199, -25}";
+position = "{139, -4}";
 },
 {
-name = uvowel;
-position = "{196, 149}";
-},
-{
-name = subjoined_ma;
-position = "{200, 186}";
-},
-{
-name = vocalic_r;
-position = "{279, 175}";
+name = ivowel;
+position = "{197, 470}";
 },
 {
 name = lengthmark;
@@ -1887,12 +1886,20 @@ name = subjoined_la;
 position = "{279, 275}";
 },
 {
-name = ivowel;
-position = "{197, 470}";
+name = subjoined_ma;
+position = "{200, 186}";
 },
 {
-name = Anchor6;
-position = "{101, 0}";
+name = top;
+position = "{338, 712}";
+},
+{
+name = uvowel;
+position = "{196, 149}";
+},
+{
+name = vocalic_r;
+position = "{279, 175}";
 }
 );
 layerId = UUID0;
@@ -1929,41 +1936,33 @@ category = Letter;
 },
 {
 glyphname = Nya_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:48:39 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{14, 0}";
 },
 {
-name = bottom;
-position = "{314, 0}";
-},
-{
-name = top;
-position = "{408, 712}";
+name = SubYa;
+position = "{14, 0}";
 },
 {
 name = anusvara;
 position = "{68, 5}";
 },
 {
+name = bottom;
+position = "{314, 0}";
+},
+{
 name = cauda;
-position = "{111, -27}";
+position = "{49, -9}";
 },
 {
-name = uvowel;
-position = "{130, 165}";
-},
-{
-name = subjoined_ma;
-position = "{102, 186}";
-},
-{
-name = vocalic_r;
-position = "{154, 155}";
+name = ivowel;
+position = "{363, 425}";
 },
 {
 name = lengthmark;
@@ -1978,12 +1977,20 @@ name = subjoined_la;
 position = "{214, 245}";
 },
 {
-name = ivowel;
-position = "{363, 425}";
+name = subjoined_ma;
+position = "{102, 186}";
 },
 {
-name = Anchor6;
-position = "{14, 0}";
+name = top;
+position = "{408, 712}";
+},
+{
+name = uvowel;
+position = "{130, 165}";
+},
+{
+name = vocalic_r;
+position = "{154, 155}";
 }
 );
 layerId = UUID0;
@@ -2041,41 +2048,33 @@ category = Letter;
 },
 {
 glyphname = Tta_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:51:50 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{231, -92}";
+},
+{
+name = Anchor8;
+position = "{270, -50}";
+},
+{
 name = SubYa;
 position = "{422, -37}";
-},
-{
-name = bottom;
-position = "{323, 0}";
-},
-{
-name = top;
-position = "{298, 712}";
 },
 {
 name = anusvara;
 position = "{328, -90}";
 },
 {
-name = cauda;
-position = "{309, -31}";
+name = bottom;
+position = "{323, 0}";
 },
 {
-name = uvowel;
-position = "{85, 0}";
-},
-{
-name = subjoined_ma;
-position = "{349, -45}";
-},
-{
-name = vocalic_r;
-position = "{344, 351}";
+name = ivowel;
+position = "{174, 426}";
 },
 {
 name = lengthmark;
@@ -2090,16 +2089,20 @@ name = subjoined_la;
 position = "{361, 430}";
 },
 {
-name = ivowel;
-position = "{174, 426}";
+name = subjoined_ma;
+position = "{349, -45}";
 },
 {
-name = Anchor6;
-position = "{231, -92}";
+name = top;
+position = "{298, 712}";
 },
 {
-name = Anchor8;
-position = "{270, -50}";
+name = uvowel;
+position = "{85, 0}";
+},
+{
+name = vocalic_r;
+position = "{344, 351}";
 }
 );
 layerId = UUID0;
@@ -2146,37 +2149,29 @@ category = Letter;
 },
 {
 glyphname = Ttha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:51:57 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{307, 0}";
-},
-{
-name = top;
-position = "{315, 712}";
+name = Anchor6;
+position = "{351, 0}";
 },
 {
 name = anusvara;
 position = "{309, 5}";
 },
 {
+name = bottom;
+position = "{307, 0}";
+},
+{
 name = cauda;
-position = "{445, -11}";
+position = "{387, -15}";
 },
 {
-name = uvowel;
-position = "{387, 56}";
-},
-{
-name = subjoined_ma;
-position = "{387, 186}";
-},
-{
-name = vocalic_r;
-position = "{410, 155}";
+name = ivowel;
+position = "{257, 425}";
 },
 {
 name = lengthmark;
@@ -2191,12 +2186,20 @@ name = subjoined_la;
 position = "{437, 245}";
 },
 {
-name = ivowel;
-position = "{257, 425}";
+name = subjoined_ma;
+position = "{387, 186}";
 },
 {
-name = Anchor6;
-position = "{351, 0}";
+name = top;
+position = "{315, 712}";
+},
+{
+name = uvowel;
+position = "{387, 56}";
+},
+{
+name = vocalic_r;
+position = "{410, 155}";
 }
 );
 layerId = UUID0;
@@ -2251,37 +2254,29 @@ category = Letter;
 },
 {
 glyphname = Dda_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:48:30 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{288, 0}";
-},
-{
-name = top;
-position = "{322, 712}";
+name = Anchor6;
+position = "{319, 18}";
 },
 {
 name = anusvara;
 position = "{289, 0}";
 },
 {
+name = bottom;
+position = "{288, 0}";
+},
+{
 name = cauda;
-position = "{425, -15}";
+position = "{362, -15}";
 },
 {
-name = uvowel;
-position = "{378, 150}";
-},
-{
-name = subjoined_ma;
-position = "{338, 186}";
-},
-{
-name = vocalic_r;
-position = "{363, 155}";
+name = ivowel;
+position = "{238, 354}";
 },
 {
 name = lengthmark;
@@ -2296,12 +2291,20 @@ name = subjoined_la;
 position = "{398, 205}";
 },
 {
-name = ivowel;
-position = "{238, 354}";
+name = subjoined_ma;
+position = "{338, 186}";
 },
 {
-name = Anchor6;
-position = "{319, 18}";
+name = top;
+position = "{322, 712}";
+},
+{
+name = uvowel;
+position = "{378, 150}";
+},
+{
+name = vocalic_r;
+position = "{363, 155}";
 }
 );
 layerId = UUID0;
@@ -2373,37 +2376,29 @@ category = Letter;
 },
 {
 glyphname = Ddha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:52:07 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{232, 0}";
-},
-{
-name = top;
-position = "{383, 712}";
+name = Anchor6;
+position = "{171, 18}";
 },
 {
 name = anusvara;
 position = "{175, -10}";
 },
 {
+name = bottom;
+position = "{232, 0}";
+},
+{
 name = cauda;
-position = "{277, -14}";
+position = "{214, -15}";
 },
 {
-name = uvowel;
-position = "{230, 150}";
-},
-{
-name = subjoined_ma;
-position = "{202, 186}";
-},
-{
-name = vocalic_r;
-position = "{213, 155}";
+name = ivowel;
+position = "{136, 426}";
 },
 {
 name = lengthmark;
@@ -2418,12 +2413,20 @@ name = subjoined_la;
 position = "{252, 275}";
 },
 {
-name = ivowel;
-position = "{136, 426}";
+name = subjoined_ma;
+position = "{202, 186}";
 },
 {
-name = Anchor6;
-position = "{171, 18}";
+name = top;
+position = "{383, 712}";
+},
+{
+name = uvowel;
+position = "{230, 150}";
+},
+{
+name = vocalic_r;
+position = "{213, 155}";
 }
 );
 layerId = UUID0;
@@ -2454,41 +2457,33 @@ category = Letter;
 },
 {
 glyphname = Nna_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:52:12 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{181, -2}";
+},
+{
 name = SubYa;
 position = "{210, 0}";
-},
-{
-name = bottom;
-position = "{190, 0}";
-},
-{
-name = top;
-position = "{198, 712}";
 },
 {
 name = anusvara;
 position = "{139, -19}";
 },
 {
+name = bottom;
+position = "{190, 0}";
+},
+{
 name = cauda;
-position = "{282, -30}";
+position = "{220, 16}";
 },
 {
-name = uvowel;
-position = "{231, 58}";
-},
-{
-name = subjoined_ma;
-position = "{160, 186}";
-},
-{
-name = vocalic_r;
-position = "{158, 155}";
+name = ivowel;
+position = "{210, 352}";
 },
 {
 name = lengthmark;
@@ -2499,12 +2494,20 @@ name = subjoined_la;
 position = "{180, 275}";
 },
 {
-name = ivowel;
-position = "{210, 352}";
+name = subjoined_ma;
+position = "{160, 186}";
 },
 {
-name = Anchor6;
-position = "{181, -2}";
+name = top;
+position = "{198, 712}";
+},
+{
+name = uvowel;
+position = "{231, 58}";
+},
+{
+name = vocalic_r;
+position = "{158, 155}";
 }
 );
 layerId = UUID0;
@@ -2544,7 +2547,7 @@ category = Letter;
 },
 {
 glyphname = Ta_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 10:56:10 +0000";
 layers = (
 {
 anchors = (
@@ -2553,32 +2556,20 @@ name = SubYa;
 position = "{320, -67}";
 },
 {
-name = bottom;
-position = "{300, 0}";
-},
-{
-name = top;
-position = "{323, 712}";
-},
-{
 name = anusvara;
 position = "{143, -17}";
 },
 {
+name = bottom;
+position = "{300, 0}";
+},
+{
 name = cauda;
-position = "{283, -28}";
+position = "{251, 20}";
 },
 {
-name = uvowel;
-position = "{227, 166}";
-},
-{
-name = subjoined_ma;
-position = "{329, -45}";
-},
-{
-name = vocalic_r;
-position = "{471, 245}";
+name = ivowel;
+position = "{281, 469}";
 },
 {
 name = lengthmark;
@@ -2593,8 +2584,20 @@ name = subjoined_la;
 position = "{420, 275}";
 },
 {
-name = ivowel;
-position = "{281, 469}";
+name = subjoined_ma;
+position = "{329, -45}";
+},
+{
+name = top;
+position = "{323, 712}";
+},
+{
+name = uvowel;
+position = "{227, 166}";
+},
+{
+name = vocalic_r;
+position = "{471, 245}";
 }
 );
 layerId = UUID0;
@@ -2645,41 +2648,33 @@ category = Letter;
 },
 {
 glyphname = Tha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:00:02 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{262, 0}";
+name = Anchor24;
+position = "{158, 525}";
 },
 {
-name = top;
-position = "{397, 712}";
+name = Anchor6;
+position = "{213, 18}";
 },
 {
 name = anusvara;
 position = "{203, -5}";
 },
 {
+name = bottom;
+position = "{262, 0}";
+},
+{
 name = cauda;
-position = "{319, -14}";
+position = "{256, -15}";
 },
 {
-name = uvowel;
-position = "{272, 150}";
-},
-{
-name = subjoined_ma;
-position = "{245, 186}";
-},
-{
-name = Anchor24;
-position = "{158, 525}";
-},
-{
-name = vocalic_r;
-position = "{255, 155}";
+name = ivowel;
+position = "{188, 470}";
 },
 {
 name = lengthmark;
@@ -2694,12 +2689,20 @@ name = subjoined_la;
 position = "{302, 275}";
 },
 {
-name = ivowel;
-position = "{188, 470}";
+name = subjoined_ma;
+position = "{245, 186}";
 },
 {
-name = Anchor6;
-position = "{213, 18}";
+name = top;
+position = "{397, 712}";
+},
+{
+name = uvowel;
+position = "{272, 150}";
+},
+{
+name = vocalic_r;
+position = "{255, 155}";
 }
 );
 layerId = UUID0;
@@ -2746,41 +2749,33 @@ category = Letter;
 },
 {
 glyphname = Da_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:00:24 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{308, 0}";
+},
+{
 name = SubYa;
 position = "{305, -67}";
-},
-{
-name = bottom;
-position = "{243, 0}";
-},
-{
-name = top;
-position = "{241, 712}";
 },
 {
 name = anusvara;
 position = "{260, -10}";
 },
 {
+name = bottom;
+position = "{243, 0}";
+},
+{
 name = cauda;
-position = "{383, -20}";
+position = "{290, 2}";
 },
 {
-name = uvowel;
-position = "{303, 171}";
-},
-{
-name = subjoined_ma;
-position = "{249, -45}";
-},
-{
-name = vocalic_r;
-position = "{395, 215}";
+name = ivowel;
+position = "{309, 471}";
 },
 {
 name = lengthmark;
@@ -2795,12 +2790,20 @@ name = subjoined_la;
 position = "{383, 275}";
 },
 {
-name = ivowel;
-position = "{309, 471}";
+name = subjoined_ma;
+position = "{249, -45}";
 },
 {
-name = Anchor6;
-position = "{308, 0}";
+name = top;
+position = "{241, 712}";
+},
+{
+name = uvowel;
+position = "{303, 171}";
+},
+{
+name = vocalic_r;
+position = "{395, 215}";
 }
 );
 layerId = UUID0;
@@ -2851,41 +2854,33 @@ category = Letter;
 },
 {
 glyphname = Dha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:00:40 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{237, 0}";
 },
 {
-name = bottom;
-position = "{267, 0}";
-},
-{
-name = top;
-position = "{267, 712}";
+name = SubYa;
+position = "{237, 0}";
 },
 {
 name = anusvara;
 position = "{263, -22}";
 },
 {
+name = bottom;
+position = "{267, 0}";
+},
+{
 name = cauda;
-position = "{325, -34}";
+position = "{266, -16}";
 },
 {
-name = uvowel;
-position = "{320, 145}";
-},
-{
-name = subjoined_ma;
-position = "{317, 186}";
-},
-{
-name = vocalic_r;
-position = "{402, 185}";
+name = ivowel;
+position = "{206, 427}";
 },
 {
 name = lengthmark;
@@ -2900,12 +2895,20 @@ name = subjoined_la;
 position = "{397, 245}";
 },
 {
-name = ivowel;
-position = "{206, 427}";
+name = subjoined_ma;
+position = "{317, 186}";
 },
 {
-name = Anchor6;
-position = "{237, 0}";
+name = top;
+position = "{267, 712}";
+},
+{
+name = uvowel;
+position = "{320, 145}";
+},
+{
+name = vocalic_r;
+position = "{402, 185}";
 }
 );
 layerId = UUID0;
@@ -2960,37 +2963,29 @@ category = Letter;
 },
 {
 glyphname = Na_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:00:48 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{251, 0}";
-},
-{
-name = top;
-position = "{263, 712}";
+name = Anchor6;
+position = "{215, -3}";
 },
 {
 name = anusvara;
 position = "{184, 1}";
 },
 {
+name = bottom;
+position = "{251, 0}";
+},
+{
 name = cauda;
-position = "{312, -12}";
+position = "{252, -15}";
 },
 {
-name = uvowel;
-position = "{252, 56}";
-},
-{
-name = subjoined_ma;
-position = "{261, 186}";
-},
-{
-name = vocalic_r;
-position = "{291, 155}";
+name = ivowel;
+position = "{231, 357}";
 },
 {
 name = lengthmark;
@@ -3005,12 +3000,20 @@ name = subjoined_la;
 position = "{331, 275}";
 },
 {
-name = ivowel;
-position = "{231, 357}";
+name = subjoined_ma;
+position = "{261, 186}";
 },
 {
-name = Anchor6;
-position = "{215, -3}";
+name = top;
+position = "{263, 712}";
+},
+{
+name = uvowel;
+position = "{252, 56}";
+},
+{
+name = vocalic_r;
+position = "{291, 155}";
 }
 );
 layerId = UUID0;
@@ -3061,45 +3064,41 @@ category = Letter;
 },
 {
 glyphname = Pa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:00:55 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor24;
+position = "{394, 489}";
+},
+{
+name = Anchor6;
+position = "{419, 152}";
+},
+{
+name = Anchor8;
+position = "{75, 15}";
+},
+{
 name = SubYa;
 position = "{74, 18}";
-},
-{
-name = bottom;
-position = "{282, 0}";
-},
-{
-name = top;
-position = "{344, 712}";
 },
 {
 name = anusvara;
 position = "{69, 0}";
 },
 {
+name = bottom;
+position = "{282, 0}";
+},
+{
 name = cauda;
-position = "{183, -14}";
+position = "{118, -8}";
 },
 {
-name = uvowel;
-position = "{134, 150}";
-},
-{
-name = subjoined_ma;
-position = "{112, 186}";
-},
-{
-name = Anchor24;
-position = "{394, 489}";
-},
-{
-name = vocalic_r;
-position = "{117, 155}";
+name = ivowel;
+position = "{367, 470}";
 },
 {
 name = lengthmark;
@@ -3114,16 +3113,20 @@ name = subjoined_la;
 position = "{172, 275}";
 },
 {
-name = ivowel;
-position = "{367, 470}";
+name = subjoined_ma;
+position = "{112, 186}";
 },
 {
-name = Anchor6;
-position = "{419, 152}";
+name = top;
+position = "{344, 712}";
 },
 {
-name = Anchor8;
-position = "{75, 15}";
+name = uvowel;
+position = "{134, 150}";
+},
+{
+name = vocalic_r;
+position = "{117, 155}";
 }
 );
 layerId = UUID0;
@@ -3166,45 +3169,41 @@ category = Letter;
 },
 {
 glyphname = Pha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:00 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor24;
+position = "{486, 489}";
+},
+{
+name = Anchor6;
+position = "{506, 152}";
+},
+{
+name = Anchor8;
+position = "{158, 15}";
+},
+{
 name = SubYa;
 position = "{158, 18}";
-},
-{
-name = bottom;
-position = "{346, 0}";
-},
-{
-name = top;
-position = "{404, 712}";
 },
 {
 name = anusvara;
 position = "{149, -6}";
 },
 {
+name = bottom;
+position = "{346, 0}";
+},
+{
 name = cauda;
-position = "{264, -16}";
+position = "{202, -8}";
 },
 {
-name = uvowel;
-position = "{218, 150}";
-},
-{
-name = subjoined_ma;
-position = "{192, 186}";
-},
-{
-name = Anchor24;
-position = "{486, 489}";
-},
-{
-name = vocalic_r;
-position = "{198, 155}";
+name = ivowel;
+position = "{451, 470}";
 },
 {
 name = lengthmark;
@@ -3219,16 +3218,20 @@ name = subjoined_la;
 position = "{246, 275}";
 },
 {
-name = ivowel;
-position = "{451, 470}";
+name = subjoined_ma;
+position = "{192, 186}";
 },
 {
-name = Anchor6;
-position = "{506, 152}";
+name = top;
+position = "{404, 712}";
 },
 {
-name = Anchor8;
-position = "{158, 15}";
+name = uvowel;
+position = "{218, 150}";
+},
+{
+name = vocalic_r;
+position = "{198, 155}";
 }
 );
 layerId = UUID0;
@@ -3282,37 +3285,29 @@ category = Letter;
 },
 {
 glyphname = Ba_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:05 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{315, 0}";
-},
-{
-name = top;
-position = "{337, 712}";
+name = Anchor6;
+position = "{355, 0}";
 },
 {
 name = anusvara;
 position = "{313, 6}";
 },
 {
+name = bottom;
+position = "{315, 0}";
+},
+{
 name = cauda;
-position = "{453, -6}";
+position = "{390, -15}";
 },
 {
-name = uvowel;
-position = "{388, 60}";
-},
-{
-name = subjoined_ma;
-position = "{400, 186}";
-},
-{
-name = vocalic_r;
-position = "{426, 155}";
+name = ivowel;
+position = "{186, 426}";
 },
 {
 name = lengthmark;
@@ -3327,12 +3322,20 @@ name = subjoined_la;
 position = "{465, 275}";
 },
 {
-name = ivowel;
-position = "{186, 426}";
+name = subjoined_ma;
+position = "{400, 186}";
 },
 {
-name = Anchor6;
-position = "{355, 0}";
+name = top;
+position = "{337, 712}";
+},
+{
+name = uvowel;
+position = "{388, 60}";
+},
+{
+name = vocalic_r;
+position = "{426, 155}";
 }
 );
 layerId = UUID0;
@@ -3389,41 +3392,37 @@ category = Letter;
 },
 {
 glyphname = Bha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:10 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
+position = "{548, 160}";
+},
+{
+name = Anchor8;
 position = "{181, 18}";
 },
 {
-name = bottom;
-position = "{349, 0}";
-},
-{
-name = top;
-position = "{394, 712}";
+name = SubYa;
+position = "{181, 18}";
 },
 {
 name = anusvara;
 position = "{168, -5}";
 },
 {
+name = bottom;
+position = "{349, 0}";
+},
+{
 name = cauda;
-position = "{287, -14}";
+position = "{223, -14}";
 },
 {
-name = uvowel;
-position = "{241, 150}";
-},
-{
-name = subjoined_ma;
-position = "{213, 186}";
-},
-{
-name = vocalic_r;
-position = "{221, 155}";
+name = ivowel;
+position = "{145, 426}";
 },
 {
 name = lengthmark;
@@ -3438,16 +3437,20 @@ name = subjoined_la;
 position = "{269, 275}";
 },
 {
-name = ivowel;
-position = "{145, 426}";
+name = subjoined_ma;
+position = "{213, 186}";
 },
 {
-name = Anchor6;
-position = "{548, 160}";
+name = top;
+position = "{394, 712}";
 },
 {
-name = Anchor8;
-position = "{181, 18}";
+name = uvowel;
+position = "{241, 150}";
+},
+{
+name = vocalic_r;
+position = "{221, 155}";
 }
 );
 layerId = UUID0;
@@ -3509,32 +3512,28 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{280, 146}";
+},
+{
 name = SubYa;
 position = "{470, 175}";
-},
-{
-name = bottom;
-position = "{386, 255}";
-},
-{
-name = top;
-position = "{406, 712}";
 },
 {
 name = anusvara;
 position = "{389, 145}";
 },
 {
+name = bottom;
+position = "{386, 255}";
+},
+{
 name = cauda;
 position = "{351, 0}";
 },
 {
-name = subjoined_ma;
-position = "{378, 186}";
-},
-{
-name = vocalic_r;
-position = "{408, 115}";
+name = ivowel;
+position = "{388, 432}";
 },
 {
 name = lengthmark;
@@ -3545,12 +3544,16 @@ name = subjoined_la;
 position = "{398, 175}";
 },
 {
-name = ivowel;
-position = "{388, 432}";
+name = subjoined_ma;
+position = "{378, 186}";
 },
 {
-name = Anchor6;
-position = "{280, 146}";
+name = top;
+position = "{406, 712}";
+},
+{
+name = vocalic_r;
+position = "{408, 115}";
 }
 );
 layerId = UUID0;
@@ -3595,41 +3598,33 @@ category = Letter;
 },
 {
 glyphname = Ya_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:40 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{570, -2}";
+},
+{
 name = SubYa;
 position = "{39, 0}";
-},
-{
-name = bottom;
-position = "{308, 0}";
-},
-{
-name = top;
-position = "{372, 712}";
 },
 {
 name = anusvara;
 position = "{312, 5}";
 },
 {
+name = bottom;
+position = "{308, 0}";
+},
+{
 name = cauda;
-position = "{671, -29}";
+position = "{609, 19}";
 },
 {
-name = uvowel;
-position = "{81, 70}";
-},
-{
-name = subjoined_ma;
-position = "{95, 186}";
-},
-{
-name = vocalic_r;
-position = "{137, 155}";
+name = ivowel;
+position = "{441, 425}";
 },
 {
 name = lengthmark;
@@ -3644,12 +3639,20 @@ name = subjoined_la;
 position = "{211, 281}";
 },
 {
-name = ivowel;
-position = "{441, 425}";
+name = subjoined_ma;
+position = "{95, 186}";
 },
 {
-name = Anchor6;
-position = "{570, -2}";
+name = top;
+position = "{372, 712}";
+},
+{
+name = uvowel;
+position = "{81, 70}";
+},
+{
+name = vocalic_r;
+position = "{137, 155}";
 }
 );
 layerId = UUID0;
@@ -3683,33 +3686,29 @@ category = Letter;
 },
 {
 glyphname = Ra_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:46 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{278, 0}";
-},
-{
-name = top;
-position = "{306, 712}";
+name = Anchor6;
+position = "{283, 0}";
 },
 {
 name = anusvara;
 position = "{317, -20}";
 },
 {
+name = bottom;
+position = "{278, 0}";
+},
+{
 name = cauda;
-position = "{361, -45}";
+position = "{318, -17}";
 },
 {
-name = uvowel;
-position = "{323, 69}";
-},
-{
-name = vocalic_r;
-position = "{378, 155}";
+name = ivowel;
+position = "{247, 425}";
 },
 {
 name = lengthmark;
@@ -3724,12 +3723,16 @@ name = subjoined_la;
 position = "{398, 275}";
 },
 {
-name = ivowel;
-position = "{247, 425}";
+name = top;
+position = "{306, 712}";
 },
 {
-name = Anchor6;
-position = "{283, 0}";
+name = uvowel;
+position = "{323, 69}";
+},
+{
+name = vocalic_r;
+position = "{378, 155}";
 }
 );
 layerId = UUID0;
@@ -3774,41 +3777,33 @@ category = Letter;
 },
 {
 glyphname = La_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:52 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{266, 0}";
+name = Anchor24;
+position = "{166, 527}";
 },
 {
-name = top;
-position = "{417, 712}";
+name = Anchor6;
+position = "{264, 18}";
 },
 {
 name = anusvara;
 position = "{249, -7}";
 },
 {
+name = bottom;
+position = "{266, 0}";
+},
+{
 name = cauda;
-position = "{371, -15}";
+position = "{307, -15}";
 },
 {
-name = uvowel;
-position = "{323, 150}";
-},
-{
-name = subjoined_ma;
-position = "{286, 186}";
-},
-{
-name = Anchor24;
-position = "{166, 527}";
-},
-{
-name = vocalic_r;
-position = "{299, 155}";
+name = ivowel;
+position = "{208, 470}";
 },
 {
 name = lengthmark;
@@ -3823,12 +3818,20 @@ name = subjoined_la;
 position = "{346, 275}";
 },
 {
-name = ivowel;
-position = "{208, 470}";
+name = subjoined_ma;
+position = "{286, 186}";
 },
 {
-name = Anchor6;
-position = "{264, 18}";
+name = top;
+position = "{417, 712}";
+},
+{
+name = uvowel;
+position = "{323, 150}";
+},
+{
+name = vocalic_r;
+position = "{299, 155}";
 }
 );
 layerId = UUID0;
@@ -3865,37 +3868,29 @@ category = Letter;
 },
 {
 glyphname = Va_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:01:57 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{287, 0}";
-},
-{
-name = top;
-position = "{315, 712}";
+name = Anchor6;
+position = "{274, 0}";
 },
 {
 name = anusvara;
 position = "{308, -20}";
 },
 {
+name = bottom;
+position = "{287, 0}";
+},
+{
 name = cauda;
-position = "{369, -12}";
+position = "{309, -17}";
 },
 {
-name = uvowel;
-position = "{323, 80}";
-},
-{
-name = subjoined_ma;
-position = "{327, 186}";
-},
-{
-name = vocalic_r;
-position = "{380, 155}";
+name = ivowel;
+position = "{237, 425}";
 },
 {
 name = lengthmark;
@@ -3910,12 +3905,20 @@ name = subjoined_la;
 position = "{426, 275}";
 },
 {
-name = ivowel;
-position = "{237, 425}";
+name = subjoined_ma;
+position = "{327, 186}";
 },
 {
-name = Anchor6;
-position = "{274, 0}";
+name = top;
+position = "{315, 712}";
+},
+{
+name = uvowel;
+position = "{323, 80}";
+},
+{
+name = vocalic_r;
+position = "{380, 155}";
 }
 );
 layerId = UUID0;
@@ -3954,37 +3957,29 @@ category = Letter;
 },
 {
 glyphname = Sha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:02:03 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{297, 0}";
-},
-{
-name = top;
-position = "{469, 712}";
+name = Anchor6;
+position = "{513, -1}";
 },
 {
 name = anusvara;
 position = "{468, 0}";
 },
 {
+name = bottom;
+position = "{297, 0}";
+},
+{
 name = cauda;
-position = "{604, -21}";
+position = "{549, -16}";
 },
 {
-name = uvowel;
-position = "{549, 55}";
-},
-{
-name = subjoined_ma;
-position = "{120, 186}";
-},
-{
-name = vocalic_r;
-position = "{139, 155}";
+name = ivowel;
+position = "{435, 470}";
 },
 {
 name = lengthmark;
@@ -3999,12 +3994,20 @@ name = subjoined_la;
 position = "{200, 275}";
 },
 {
-name = ivowel;
-position = "{435, 470}";
+name = subjoined_ma;
+position = "{120, 186}";
 },
 {
-name = Anchor6;
-position = "{513, -1}";
+name = top;
+position = "{469, 712}";
+},
+{
+name = uvowel;
+position = "{549, 55}";
+},
+{
+name = vocalic_r;
+position = "{139, 155}";
 }
 );
 layerId = UUID0;
@@ -4049,41 +4052,33 @@ category = Letter;
 },
 {
 glyphname = Ssa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:02:10 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{142, 10}";
 },
 {
-name = bottom;
-position = "{352, 0}";
-},
-{
-name = top;
-position = "{411, 712}";
+name = SubYa;
+position = "{142, 10}";
 },
 {
 name = anusvara;
 position = "{153, -25}";
 },
 {
+name = bottom;
+position = "{352, 0}";
+},
+{
 name = cauda;
-position = "{227, -27}";
+position = "{169, -10}";
 },
 {
-name = uvowel;
-position = "{255, 168}";
-},
-{
-name = subjoined_ma;
-position = "{230, 186}";
-},
-{
-name = vocalic_r;
-position = "{281, 185}";
+name = ivowel;
+position = "{231, 470}";
 },
 {
 name = lengthmark;
@@ -4098,12 +4093,20 @@ name = subjoined_la;
 position = "{332, 245}";
 },
 {
-name = ivowel;
-position = "{231, 470}";
+name = subjoined_ma;
+position = "{230, 186}";
 },
 {
-name = Anchor6;
-position = "{142, 10}";
+name = top;
+position = "{411, 712}";
+},
+{
+name = uvowel;
+position = "{255, 168}";
+},
+{
+name = vocalic_r;
+position = "{281, 185}";
 }
 );
 layerId = UUID0;
@@ -4155,41 +4158,37 @@ category = Letter;
 },
 {
 glyphname = Sa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:02:20 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
 position = "{36, 10}";
 },
 {
-name = bottom;
-position = "{283, 0}";
+name = Anchor8;
+position = "{34, -7}";
 },
 {
-name = top;
-position = "{334, 712}";
+name = SubYa;
+position = "{36, 10}";
 },
 {
 name = anusvara;
 position = "{47, -24}";
 },
 {
+name = bottom;
+position = "{283, 0}";
+},
+{
 name = cauda;
-position = "{122, -27}";
+position = "{64, -8}";
 },
 {
-name = uvowel;
-position = "{141, 165}";
-},
-{
-name = subjoined_ma;
-position = "{116, 186}";
-},
-{
-name = vocalic_r;
-position = "{170, 159}";
+name = ivowel;
+position = "{113, 470}";
 },
 {
 name = lengthmark;
@@ -4204,16 +4203,20 @@ name = subjoined_la;
 position = "{231, 205}";
 },
 {
-name = ivowel;
-position = "{113, 470}";
+name = subjoined_ma;
+position = "{116, 186}";
 },
 {
-name = Anchor6;
-position = "{36, 10}";
+name = top;
+position = "{334, 712}";
 },
 {
-name = Anchor8;
-position = "{34, -7}";
+name = uvowel;
+position = "{141, 165}";
+},
+{
+name = vocalic_r;
+position = "{170, 159}";
 }
 );
 layerId = UUID0;
@@ -4271,37 +4274,29 @@ category = Letter;
 },
 {
 glyphname = Za_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:02:26 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{305, 0}";
-},
-{
-name = top;
-position = "{349, 712}";
+name = Anchor6;
+position = "{349, 18}";
 },
 {
 name = anusvara;
 position = "{338, -5}";
 },
 {
+name = bottom;
+position = "{305, 0}";
+},
+{
 name = cauda;
-position = "{455, -14}";
+position = "{392, -15}";
 },
 {
-name = uvowel;
-position = "{408, 150}";
-},
-{
-name = subjoined_ma;
-position = "{370, 186}";
-},
-{
-name = vocalic_r;
-position = "{393, 155}";
+name = ivowel;
+position = "{309, 427}";
 },
 {
 name = lengthmark;
@@ -4316,12 +4311,20 @@ name = subjoined_la;
 position = "{426, 245}";
 },
 {
-name = ivowel;
-position = "{309, 427}";
+name = subjoined_ma;
+position = "{370, 186}";
 },
 {
-name = Anchor6;
-position = "{349, 18}";
+name = top;
+position = "{349, 712}";
+},
+{
+name = uvowel;
+position = "{408, 150}";
+},
+{
+name = vocalic_r;
+position = "{393, 155}";
 }
 );
 layerId = UUID0;
@@ -4370,41 +4373,37 @@ category = Letter;
 },
 {
 glyphname = Ha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:02:48 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{292, 0}";
+},
+{
+name = Anchor8;
+position = "{178, -90}";
+},
+{
 name = SubYa;
 position = "{394, -67}";
-},
-{
-name = bottom;
-position = "{284, 0}";
-},
-{
-name = top;
-position = "{313, 712}";
 },
 {
 name = anusvara;
 position = "{318, -90}";
 },
 {
+name = bottom;
+position = "{284, 0}";
+},
+{
 name = cauda;
-position = "{231, -176}";
+position = "{442, 21}";
 },
 {
-name = uvowel;
-position = "{54, 0}";
-},
-{
-name = subjoined_ma;
-position = "{294, -45}";
-},
-{
-name = vocalic_r;
-position = "{300, -170}";
+name = ivowel;
+position = "{274, 350}";
 },
 {
 name = lengthmark;
@@ -4419,16 +4418,20 @@ name = subjoined_la;
 position = "{304, -95}";
 },
 {
-name = ivowel;
-position = "{274, 350}";
+name = subjoined_ma;
+position = "{294, -45}";
 },
 {
-name = Anchor6;
-position = "{292, 0}";
+name = top;
+position = "{313, 712}";
 },
 {
-name = Anchor8;
-position = "{178, -90}";
+name = uvowel;
+position = "{54, 0}";
+},
+{
+name = vocalic_r;
+position = "{300, -170}";
 }
 );
 layerId = UUID0;
@@ -4491,41 +4494,37 @@ category = Letter;
 },
 {
 glyphname = Kka_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:03:02 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{635, 0}";
+},
+{
+name = Anchor8;
+position = "{333, 0}";
+},
+{
 name = SubYa;
 position = "{330, -7}";
-},
-{
-name = bottom;
-position = "{337, 0}";
-},
-{
-name = top;
-position = "{334, 712}";
 },
 {
 name = anusvara;
 position = "{297, 0}";
 },
 {
+name = bottom;
+position = "{337, 0}";
+},
+{
 name = cauda;
-position = "{408, -51}";
+position = "{368, -16}";
 },
 {
-name = uvowel;
-position = "{371, 60}";
-},
-{
-name = subjoined_ma;
-position = "{359, 186}";
-},
-{
-name = vocalic_r;
-position = "{417, 155}";
+name = ivowel;
+position = "{302, 425}";
 },
 {
 name = lengthmark;
@@ -4540,16 +4539,20 @@ name = subjoined_la;
 position = "{423, 175}";
 },
 {
-name = ivowel;
-position = "{302, 425}";
+name = subjoined_ma;
+position = "{359, 186}";
 },
 {
-name = Anchor6;
-position = "{635, 0}";
+name = top;
+position = "{334, 712}";
 },
 {
-name = Anchor8;
-position = "{333, 0}";
+name = uvowel;
+position = "{371, 60}";
+},
+{
+name = vocalic_r;
+position = "{417, 155}";
 }
 );
 layerId = UUID0;
@@ -4614,37 +4617,29 @@ category = Letter;
 },
 {
 glyphname = Tttha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:03:06 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{389, 0}";
-},
-{
-name = top;
-position = "{360, 712}";
+name = Anchor6;
+position = "{391, 0}";
 },
 {
 name = anusvara;
 position = "{348, 5}";
 },
 {
+name = bottom;
+position = "{389, 0}";
+},
+{
 name = cauda;
-position = "{484, -14}";
+position = "{426, -16}";
 },
 {
-name = uvowel;
-position = "{427, 60}";
-},
-{
-name = subjoined_ma;
-position = "{418, 186}";
-},
-{
-name = vocalic_r;
-position = "{450, 115}";
+name = ivowel;
+position = "{326, 426}";
 },
 {
 name = lengthmark;
@@ -4659,12 +4654,20 @@ name = subjoined_la;
 position = "{433, 115}";
 },
 {
-name = ivowel;
-position = "{326, 426}";
+name = subjoined_ma;
+position = "{418, 186}";
 },
 {
-name = Anchor6;
-position = "{391, 0}";
+name = top;
+position = "{360, 712}";
+},
+{
+name = uvowel;
+position = "{427, 60}";
+},
+{
+name = vocalic_r;
+position = "{450, 115}";
 }
 );
 layerId = UUID0;
@@ -4725,37 +4728,29 @@ category = Letter;
 },
 {
 glyphname = TTta_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:03:11 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{179, 0}";
-},
-{
-name = top;
-position = "{298, 712}";
+name = Anchor6;
+position = "{148, 0}";
 },
 {
 name = anusvara;
 position = "{177, -19}";
 },
 {
+name = bottom;
+position = "{179, 0}";
+},
+{
 name = cauda;
-position = "{229, -39}";
+position = "{179, -17}";
 },
 {
-name = uvowel;
-position = "{194, 80}";
-},
-{
-name = subjoined_ma;
-position = "{203, 186}";
-},
-{
-name = vocalic_r;
-position = "{254, 155}";
+name = ivowel;
+position = "{174, 426}";
 },
 {
 name = lengthmark;
@@ -4770,12 +4765,20 @@ name = subjoined_la;
 position = "{301, 275}";
 },
 {
-name = ivowel;
-position = "{174, 426}";
+name = subjoined_ma;
+position = "{203, 186}";
 },
 {
-name = Anchor6;
-position = "{148, 0}";
+name = top;
+position = "{298, 712}";
+},
+{
+name = uvowel;
+position = "{194, 80}";
+},
+{
+name = vocalic_r;
+position = "{254, 155}";
 }
 );
 layerId = UUID0;
@@ -4815,41 +4818,33 @@ category = Letter;
 },
 {
 glyphname = VHa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:03:16 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{274, 0}";
+},
+{
 name = SubYa;
 position = "{401, -6}";
-},
-{
-name = bottom;
-position = "{287, 0}";
-},
-{
-name = top;
-position = "{315, 712}";
 },
 {
 name = anusvara;
 position = "{308, -20}";
 },
 {
+name = bottom;
+position = "{287, 0}";
+},
+{
 name = cauda;
-position = "{353, -43}";
+position = "{309, -17}";
 },
 {
-name = uvowel;
-position = "{324, 80}";
-},
-{
-name = subjoined_ma;
-position = "{327, 186}";
-},
-{
-name = vocalic_r;
-position = "{360, 135}";
+name = ivowel;
+position = "{237, 425}";
 },
 {
 name = lengthmark;
@@ -4864,12 +4859,20 @@ name = subjoined_la;
 position = "{426, 275}";
 },
 {
-name = ivowel;
-position = "{237, 425}";
+name = subjoined_ma;
+position = "{327, 186}";
 },
 {
-name = Anchor6;
-position = "{274, 0}";
+name = top;
+position = "{315, 712}";
+},
+{
+name = uvowel;
+position = "{324, 80}";
+},
+{
+name = vocalic_r;
+position = "{360, 135}";
 }
 );
 layerId = UUID0;
@@ -4945,11 +4948,11 @@ name = Anchor34;
 position = "{-300, 868}";
 },
 {
-name = _top;
+name = _Anchor34;
 position = "{-301, 714}";
 },
 {
-name = _Anchor34;
+name = _top;
 position = "{-301, 714}";
 }
 );
@@ -4974,7 +4977,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = Cauda_khar;
-lastChange = "2019-12-16 17:27:38 +0000";
+lastChange = "2023-01-02 10:40:52 +0000";
 layers = (
 {
 anchors = (
@@ -4987,12 +4990,12 @@ name = Anchor40;
 position = "{-310, -12}";
 },
 {
-name = _cauda;
+name = _Anchor36;
 position = "{-311, 3}";
 },
 {
-name = _Anchor36;
-position = "{-311, 3}";
+name = _cauda;
+position = "{-411, 0}";
 }
 );
 layerId = UUID0;
@@ -5000,20 +5003,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-453 16 LINE",
-"-409 0 OFFCURVE",
-"-362 -12 OFFCURVE",
-"-310 -12 CURVE SMOOTH",
-"-203 -12 OFFCURVE",
-"-125 38 OFFCURVE",
-"-66 86 CURVE",
-"-90 141 LINE",
-"-146 94 OFFCURVE",
-"-215 54 OFFCURVE",
-"-307 54 CURVE SMOOTH",
-"-344 54 OFFCURVE",
-"-384 58 OFFCURVE",
-"-424 72 CURVE"
+"-379 26 OFFCURVE",
+"-342 44 OFFCURVE",
+"-308 57 CURVE SMOOTH",
+"-221 88 OFFCURVE",
+"-143 74 OFFCURVE",
+"-74 49 CURVE",
+"-70 109 LINE",
+"-142 134 OFFCURVE",
+"-232 154 OFFCURVE",
+"-333 118 CURVE SMOOTH",
+"-382 100 OFFCURVE",
+"-422 72 OFFCURVE",
+"-458 42 CURVE",
+"-411 0 LINE"
 );
 }
 );
@@ -5043,11 +5046,11 @@ name = Anchor40;
 position = "{-137, -195}";
 },
 {
-name = _bottom;
+name = _Anchor40;
 position = "{-137, 0}";
 },
 {
-name = _Anchor40;
+name = _bottom;
 position = "{-137, 0}";
 }
 );
@@ -5085,11 +5088,11 @@ layers = (
 {
 anchors = (
 {
-name = _bottom;
+name = _Anchor40;
 position = "{-252, 0}";
 },
 {
-name = _Anchor40;
+name = _bottom;
 position = "{-252, 0}";
 }
 );
@@ -6265,25 +6268,21 @@ category = Letter;
 },
 {
 glyphname = AI_khar;
-lastChange = "2019-12-16 17:27:39 +0000";
+lastChange = "2023-01-02 11:03:27 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{334, 0}";
-},
-{
-name = top;
-position = "{327, 712}";
-},
 {
 name = anusvara;
 position = "{287, 0}";
 },
 {
+name = bottom;
+position = "{334, 0}";
+},
+{
 name = cauda;
-position = "{431, -6}";
+position = "{368, -15}";
 },
 {
 name = lengthmark;
@@ -6292,6 +6291,10 @@ position = "{420, 100}";
 {
 name = ovowel;
 position = "{469, 406}";
+},
+{
+name = top;
+position = "{327, 712}";
 }
 );
 components = (
@@ -6312,29 +6315,29 @@ category = Letter;
 },
 {
 glyphname = AE_khar;
-lastChange = "2019-12-16 17:27:39 +0000";
+lastChange = "2023-01-02 11:03:32 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{334, 0}";
-},
-{
-name = top;
-position = "{327, 712}";
-},
 {
 name = anusvara;
 position = "{287, 0}";
 },
 {
+name = bottom;
+position = "{334, 0}";
+},
+{
 name = cauda;
-position = "{431, -6}";
+position = "{368, -15}";
 },
 {
 name = lengthmark;
 position = "{420, 100}";
+},
+{
+name = top;
+position = "{327, 712}";
 }
 );
 components = (
@@ -6366,29 +6369,29 @@ category = Letter;
 },
 {
 glyphname = Nni_khar;
-lastChange = "2019-12-16 17:27:39 +0000";
+lastChange = "2023-01-02 11:03:36 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{272, 0}";
-},
-{
-name = top;
-position = "{270, 712}";
-},
 {
 name = anusvara;
 position = "{211, -19}";
 },
 {
+name = bottom;
+position = "{272, 0}";
+},
+{
 name = cauda;
-position = "{353, -30}";
+position = "{295, -4}";
 },
 {
 name = lengthmark;
 position = "{273, 53}";
+},
+{
+name = top;
+position = "{270, 712}";
 }
 );
 layerId = UUID0;
@@ -6447,20 +6450,20 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{220, -120}";
-},
-{
-name = top;
-position = "{328, 712}";
-},
-{
 name = anusvara;
 position = "{269, -89}";
 },
 {
+name = bottom;
+position = "{220, -120}";
+},
+{
 name = lengthmark;
 position = "{333, 53}";
+},
+{
+name = top;
+position = "{328, 712}";
 }
 );
 background = {
@@ -6599,20 +6602,20 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{390, 0}";
-},
-{
-name = top;
-position = "{388, 712}";
-},
-{
 name = anusvara;
 position = "{329, -19}";
 },
 {
+name = bottom;
+position = "{390, 0}";
+},
+{
 name = lengthmark;
 position = "{393, 53}";
+},
+{
+name = top;
+position = "{388, 712}";
 }
 );
 layerId = UUID0;
@@ -6669,16 +6672,12 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{251, 0}";
-},
-{
-name = top;
-position = "{263, 712}";
-},
-{
 name = anusvara;
 position = "{184, 1}";
+},
+{
+name = bottom;
+position = "{251, 0}";
 },
 {
 name = cauda;
@@ -6691,6 +6690,10 @@ position = "{299, 100}";
 {
 name = ovowel;
 position = "{311, 421}";
+},
+{
+name = top;
+position = "{263, 712}";
 }
 );
 components = (
@@ -6711,29 +6714,29 @@ category = Letter;
 },
 {
 glyphname = Ne_khar;
-lastChange = "2019-12-16 17:27:39 +0000";
+lastChange = "2023-01-02 11:03:59 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{251, 0}";
-},
-{
-name = top;
-position = "{263, 712}";
-},
 {
 name = anusvara;
 position = "{184, 1}";
 },
 {
+name = bottom;
+position = "{251, 0}";
+},
+{
 name = cauda;
-position = "{315, -7}";
+position = "{252, -15}";
 },
 {
 name = lengthmark;
 position = "{299, 100}";
+},
+{
+name = top;
+position = "{263, 712}";
 }
 );
 components = (
@@ -6770,32 +6773,32 @@ layers = (
 {
 anchors = (
 {
-name = SubYa;
-position = "{293, -67}";
-},
-{
-name = bottom;
-position = "{213, 0}";
-},
-{
-name = top;
-position = "{301, 712}";
-},
-{
-name = anusvara;
-position = "{228, -103}";
-},
-{
-name = lengthmark;
-position = "{274, 0}";
-},
-{
 name = Anchor6;
 position = "{201, 0}";
 },
 {
 name = Anchor8;
 position = "{92, 90}";
+},
+{
+name = SubYa;
+position = "{293, -67}";
+},
+{
+name = anusvara;
+position = "{228, -103}";
+},
+{
+name = bottom;
+position = "{213, 0}";
+},
+{
+name = lengthmark;
+position = "{274, 0}";
+},
+{
+name = top;
+position = "{301, 712}";
 }
 );
 layerId = UUID0;
@@ -6851,20 +6854,20 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{280, 146}";
+},
+{
 name = SubYa;
 position = "{470, 175}";
 },
 {
-name = bottom;
-position = "{376, 255}";
-},
-{
-name = top;
-position = "{406, 712}";
-},
-{
 name = anusvara;
 position = "{389, 145}";
+},
+{
+name = bottom;
+position = "{376, 255}";
 },
 {
 name = cauda;
@@ -6879,8 +6882,8 @@ name = ovowel;
 position = "{340, 355}";
 },
 {
-name = Anchor6;
-position = "{280, 146}";
+name = top;
+position = "{406, 712}";
 }
 );
 layerId = UUID0;
@@ -6938,20 +6941,24 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{280, 146}";
+},
+{
+name = Anchor8;
+position = "{374, 186}";
+},
+{
 name = SubYa;
 position = "{470, 175}";
 },
 {
-name = bottom;
-position = "{386, 125}";
-},
-{
-name = top;
-position = "{406, 712}";
-},
-{
 name = anusvara;
 position = "{389, 145}";
+},
+{
+name = bottom;
+position = "{386, 125}";
 },
 {
 name = cauda;
@@ -6962,12 +6969,8 @@ name = lengthmark;
 position = "{499, 300}";
 },
 {
-name = Anchor6;
-position = "{280, 146}";
-},
-{
-name = Anchor8;
-position = "{374, 186}";
+name = top;
+position = "{406, 712}";
 }
 );
 layerId = UUID0;
@@ -7029,28 +7032,24 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{349, -107}";
+},
+{
 name = SubYa;
 position = "{502, -66}";
-},
-{
-name = bottom;
-position = "{401, 0}";
-},
-{
-name = top;
-position = "{408, 712}";
 },
 {
 name = anusvara;
 position = "{448, -93}";
 },
 {
-name = cauda;
-position = "{361, -200}";
+name = bottom;
+position = "{401, 0}";
 },
 {
-name = subjoined_ma;
-position = "{391, -57}";
+name = cauda;
+position = "{361, -200}";
 },
 {
 name = lengthmark;
@@ -7061,8 +7060,12 @@ name = subjoined_la;
 position = "{183, 365}";
 },
 {
-name = Anchor6;
-position = "{349, -107}";
+name = subjoined_ma;
+position = "{391, -57}";
+},
+{
+name = top;
+position = "{408, 712}";
 }
 );
 layerId = UUID0;
@@ -7107,41 +7110,33 @@ category = Letter;
 },
 {
 glyphname = Hi_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:04:32 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{292, 0}";
+},
+{
+name = Anchor8;
+position = "{178, -90}";
+},
+{
 name = SubYa;
 position = "{394, -67}";
-},
-{
-name = bottom;
-position = "{284, 0}";
-},
-{
-name = top;
-position = "{313, 712}";
 },
 {
 name = anusvara;
 position = "{318, -90}";
 },
 {
+name = bottom;
+position = "{284, 0}";
+},
+{
 name = cauda;
-position = "{231, -176}";
-},
-{
-name = uvowel;
-position = "{54, 0}";
-},
-{
-name = subjoined_ma;
-position = "{294, -45}";
-},
-{
-name = vocalic_r;
-position = "{300, -170}";
+position = "{440, 27}";
 },
 {
 name = lengthmark;
@@ -7152,12 +7147,20 @@ name = ovowel;
 position = "{394, 417}";
 },
 {
-name = Anchor6;
-position = "{292, 0}";
+name = subjoined_ma;
+position = "{294, -45}";
 },
 {
-name = Anchor8;
-position = "{178, -90}";
+name = top;
+position = "{313, 712}";
+},
+{
+name = uvowel;
+position = "{54, 0}";
+},
+{
+name = vocalic_r;
+position = "{300, -170}";
 }
 );
 components = (
@@ -7178,46 +7181,10 @@ category = Letter;
 },
 {
 glyphname = He_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:04:45 +0000";
 layers = (
 {
 anchors = (
-{
-name = SubYa;
-position = "{394, -67}";
-},
-{
-name = bottom;
-position = "{284, 0}";
-},
-{
-name = top;
-position = "{313, 712}";
-},
-{
-name = anusvara;
-position = "{318, -90}";
-},
-{
-name = cauda;
-position = "{231, -176}";
-},
-{
-name = uvowel;
-position = "{54, 0}";
-},
-{
-name = subjoined_ma;
-position = "{294, -45}";
-},
-{
-name = vocalic_r;
-position = "{300, -170}";
-},
-{
-name = lengthmark;
-position = "{418, 38}";
-},
 {
 name = Anchor6;
 position = "{292, 0}";
@@ -7225,6 +7192,42 @@ position = "{292, 0}";
 {
 name = Anchor8;
 position = "{178, -90}";
+},
+{
+name = SubYa;
+position = "{394, -67}";
+},
+{
+name = anusvara;
+position = "{318, -90}";
+},
+{
+name = bottom;
+position = "{284, 0}";
+},
+{
+name = cauda;
+position = "{442, 31}";
+},
+{
+name = lengthmark;
+position = "{418, 38}";
+},
+{
+name = subjoined_ma;
+position = "{294, -45}";
+},
+{
+name = top;
+position = "{313, 712}";
+},
+{
+name = uvowel;
+position = "{54, 0}";
+},
+{
+name = vocalic_r;
+position = "{300, -170}";
 }
 );
 components = (
@@ -7256,37 +7259,33 @@ category = Letter;
 },
 {
 glyphname = KTa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:05:09 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{205, -352}";
+},
+{
 name = SubYa;
 position = "{329, -336}";
-},
-{
-name = bottom;
-position = "{412, -239}";
-},
-{
-name = top;
-position = "{302, 712}";
 },
 {
 name = anusvara;
 position = "{282, -250}";
 },
 {
+name = bottom;
+position = "{412, -239}";
+},
+{
 name = cauda;
-position = "{326, -384}";
+position = "{358, -222}";
 },
 {
-name = uvowel;
-position = "{255, -105}";
-},
-{
-name = vocalic_r;
-position = "{430, 255}";
+name = ivowel;
+position = "{255, 104}";
 },
 {
 name = lengthmark;
@@ -7301,12 +7300,16 @@ name = subjoined_la;
 position = "{448, -95}";
 },
 {
-name = ivowel;
-position = "{255, 104}";
+name = top;
+position = "{302, 712}";
 },
 {
-name = Anchor8;
-position = "{205, -352}";
+name = uvowel;
+position = "{255, -105}";
+},
+{
+name = vocalic_r;
+position = "{430, 255}";
 }
 );
 layerId = UUID0;
@@ -7398,33 +7401,29 @@ category = Letter;
 },
 {
 glyphname = KSsa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:05:16 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{291, 0}";
-},
-{
-name = top;
-position = "{331, 712}";
+name = Anchor6;
+position = "{251, 1}";
 },
 {
 name = anusvara;
 position = "{281, -15}";
 },
 {
+name = bottom;
+position = "{291, 0}";
+},
+{
 name = cauda;
-position = "{417, -22}";
+position = "{284, -13}";
 },
 {
-name = uvowel;
-position = "{303, 90}";
-},
-{
-name = vocalic_r;
-position = "{317, 165}";
+name = ivowel;
+position = "{248, 440}";
 },
 {
 name = lengthmark;
@@ -7439,12 +7438,16 @@ name = subjoined_la;
 position = "{344, 275}";
 },
 {
-name = ivowel;
-position = "{248, 440}";
+name = top;
+position = "{331, 712}";
 },
 {
-name = Anchor6;
-position = "{251, 1}";
+name = uvowel;
+position = "{303, 90}";
+},
+{
+name = vocalic_r;
+position = "{317, 165}";
 }
 );
 layerId = UUID0;
@@ -7502,33 +7505,29 @@ category = Letter;
 },
 {
 glyphname = KhKSsa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:05:21 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{324, 0}";
-},
-{
-name = top;
-position = "{361, 876}";
+name = Anchor6;
+position = "{251, 1}";
 },
 {
 name = anusvara;
 position = "{281, -15}";
 },
 {
+name = bottom;
+position = "{324, 0}";
+},
+{
 name = cauda;
-position = "{417, -22}";
+position = "{284, -13}";
 },
 {
-name = uvowel;
-position = "{303, 90}";
-},
-{
-name = vocalic_r;
-position = "{316, 155}";
+name = ivowel;
+position = "{267, 440}";
 },
 {
 name = lengthmark;
@@ -7543,12 +7542,16 @@ name = subjoined_la;
 position = "{324, 275}";
 },
 {
-name = ivowel;
-position = "{267, 440}";
+name = top;
+position = "{361, 876}";
 },
 {
-name = Anchor6;
-position = "{251, 1}";
+name = uvowel;
+position = "{303, 90}";
+},
+{
+name = vocalic_r;
+position = "{316, 155}";
 }
 );
 layerId = UUID0;
@@ -7643,29 +7646,25 @@ category = Letter;
 },
 {
 glyphname = Dhik_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:05:29 +0000";
 layers = (
 {
 anchors = (
-{
-name = bottom;
-position = "{284, -257}";
-},
-{
-name = top;
-position = "{323, 772}";
-},
 {
 name = anusvara;
 position = "{378, -288}";
 },
 {
-name = cauda;
-position = "{243, -424}";
+name = bottom;
+position = "{284, -257}";
 },
 {
-name = vocalic_r;
-position = "{471, 216}";
+name = cauda;
+position = "{378, -286}";
+},
+{
+name = ivowel;
+position = "{122, -18}";
 },
 {
 name = lengthmark;
@@ -7676,8 +7675,12 @@ name = subjoined_la;
 position = "{188, -217}";
 },
 {
-name = ivowel;
-position = "{122, -18}";
+name = top;
+position = "{323, 772}";
+},
+{
+name = vocalic_r;
+position = "{471, 216}";
 }
 );
 layerId = UUID0;
@@ -7793,33 +7796,29 @@ category = Letter;
 },
 {
 glyphname = JNya_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:05:44 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{392, 0}";
-},
-{
-name = top;
-position = "{504, 712}";
+name = Anchor6;
+position = "{142, 3}";
 },
 {
 name = anusvara;
 position = "{441, 0}";
 },
 {
+name = bottom;
+position = "{392, 0}";
+},
+{
 name = cauda;
-position = "{230, -25}";
+position = "{171, -12}";
 },
 {
-name = uvowel;
-position = "{201, 104}";
-},
-{
-name = vocalic_r;
-position = "{310, 155}";
+name = ivowel;
+position = "{224, 470}";
 },
 {
 name = lengthmark;
@@ -7834,12 +7833,16 @@ name = subjoined_la;
 position = "{362, 275}";
 },
 {
-name = ivowel;
-position = "{224, 470}";
+name = top;
+position = "{504, 712}";
 },
 {
-name = Anchor6;
-position = "{142, 3}";
+name = uvowel;
+position = "{201, 104}";
+},
+{
+name = vocalic_r;
+position = "{310, 155}";
 }
 );
 layerId = UUID0;
@@ -7911,32 +7914,32 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{422, -82}";
+},
+{
+name = Anchor8;
+position = "{395, -82}";
+},
+{
 name = SubYa;
 position = "{519, -66}";
-},
-{
-name = bottom;
-position = "{348, 0}";
-},
-{
-name = top;
-position = "{348, 712}";
 },
 {
 name = anusvara;
 position = "{471, -5}";
 },
 {
+name = bottom;
+position = "{348, 0}";
+},
+{
 name = cauda;
 position = "{441, -176}";
 },
 {
-name = uvowel;
-position = "{269, 0}";
-},
-{
-name = vocalic_r;
-position = "{430, 278}";
+name = ivowel;
+position = "{271, 479}";
 },
 {
 name = lengthmark;
@@ -7947,16 +7950,16 @@ name = ovowel;
 position = "{480, 427}";
 },
 {
-name = ivowel;
-position = "{271, 479}";
+name = top;
+position = "{348, 712}";
 },
 {
-name = Anchor6;
-position = "{422, -82}";
+name = uvowel;
+position = "{269, 0}";
 },
 {
-name = Anchor8;
-position = "{395, -82}";
+name = vocalic_r;
+position = "{430, 278}";
 }
 );
 layerId = UUID0;
@@ -8019,33 +8022,29 @@ category = Letter;
 },
 {
 glyphname = TSa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:06:02 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{313, 0}";
-},
-{
-name = top;
-position = "{334, 712}";
+name = Anchor6;
+position = "{66, 10}";
 },
 {
 name = anusvara;
 position = "{77, -24}";
 },
 {
+name = bottom;
+position = "{313, 0}";
+},
+{
 name = cauda;
-position = "{152, -27}";
+position = "{92, -9}";
 },
 {
-name = uvowel;
-position = "{171, 165}";
-},
-{
-name = vocalic_r;
-position = "{190, 125}";
+name = ivowel;
+position = "{159, 470}";
 },
 {
 name = lengthmark;
@@ -8056,12 +8055,16 @@ name = ovowel;
 position = "{282, 478}";
 },
 {
-name = ivowel;
-position = "{159, 470}";
+name = top;
+position = "{334, 712}";
 },
 {
-name = Anchor6;
-position = "{66, 10}";
+name = uvowel;
+position = "{171, 165}";
+},
+{
+name = vocalic_r;
+position = "{190, 125}";
 }
 );
 layerId = UUID0;
@@ -8156,37 +8159,29 @@ category = Letter;
 },
 {
 glyphname = TVa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:06:13 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{295, -82}";
+},
+{
 name = SubYa;
 position = "{419, -66}";
-},
-{
-name = bottom;
-position = "{430, 0}";
-},
-{
-name = top;
-position = "{430, 712}";
 },
 {
 name = anusvara;
 position = "{322, -8}";
 },
 {
-name = cauda;
-position = "{521, -6}";
+name = bottom;
+position = "{430, 0}";
 },
 {
-name = uvowel;
-position = "{105, 0}";
-},
-{
-name = vocalic_r;
-position = "{274, 203}";
+name = ivowel;
+position = "{281, 479}";
 },
 {
 name = lengthmark;
@@ -8197,12 +8192,16 @@ name = ovowel;
 position = "{526, 521}";
 },
 {
-name = ivowel;
-position = "{281, 479}";
+name = top;
+position = "{430, 712}";
 },
 {
-name = Anchor8;
-position = "{295, -82}";
+name = uvowel;
+position = "{105, 0}";
+},
+{
+name = vocalic_r;
+position = "{274, 203}";
 }
 );
 layerId = UUID0;
@@ -8271,37 +8270,33 @@ category = Letter;
 },
 {
 glyphname = PGa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:06:17 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{190, -281}";
+name = Anchor24;
+position = "{561, 489}";
 },
 {
-name = top;
-position = "{375, 712}";
+name = Anchor6;
+position = "{182, -289}";
 },
 {
 name = anusvara;
 position = "{190, -283}";
 },
 {
+name = bottom;
+position = "{190, -281}";
+},
+{
 name = cauda;
-position = "{292, -294}";
+position = "{230, -289}";
 },
 {
-name = uvowel;
-position = "{247, -114}";
-},
-{
-name = Anchor24;
-position = "{561, 489}";
-},
-{
-name = vocalic_r;
-position = "{230, -135}";
+name = ivowel;
+position = "{145, 71}";
 },
 {
 name = lengthmark;
@@ -8312,12 +8307,16 @@ name = ovowel;
 position = "{280, 65}";
 },
 {
-name = ivowel;
-position = "{145, 71}";
+name = top;
+position = "{375, 712}";
 },
 {
-name = Anchor6;
-position = "{182, -289}";
+name = uvowel;
+position = "{247, -114}";
+},
+{
+name = vocalic_r;
+position = "{230, -135}";
 }
 );
 layerId = UUID0;
@@ -8401,41 +8400,37 @@ category = Letter;
 },
 {
 glyphname = PTa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:06:37 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor24;
+position = "{547, 489}";
+},
+{
+name = Anchor8;
+position = "{185, -352}";
+},
+{
 name = SubYa;
 position = "{309, -336}";
-},
-{
-name = bottom;
-position = "{280, -258}";
-},
-{
-name = top;
-position = "{397, 712}";
 },
 {
 name = anusvara;
 position = "{281, -250}";
 },
 {
+name = bottom;
+position = "{280, -258}";
+},
+{
 name = cauda;
-position = "{296, -384}";
+position = "{335, -221}";
 },
 {
-name = uvowel;
-position = "{224, -109}";
-},
-{
-name = Anchor24;
-position = "{547, 489}";
-},
-{
-name = vocalic_r;
-position = "{328, 321}";
+name = ivowel;
+position = "{170, 104}";
 },
 {
 name = lengthmark;
@@ -8446,12 +8441,16 @@ name = ovowel;
 position = "{428, 58}";
 },
 {
-name = ivowel;
-position = "{170, 104}";
+name = top;
+position = "{397, 712}";
 },
 {
-name = Anchor8;
-position = "{185, -352}";
+name = uvowel;
+position = "{224, -109}";
+},
+{
+name = vocalic_r;
+position = "{328, 321}";
 }
 );
 layerId = UUID0;
@@ -8529,32 +8528,28 @@ layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{415, -82}";
+},
+{
 name = SubYa;
 position = "{539, -66}";
-},
-{
-name = bottom;
-position = "{468, -30}";
-},
-{
-name = top;
-position = "{406, 712}";
 },
 {
 name = anusvara;
 position = "{481, -5}";
 },
 {
+name = bottom;
+position = "{468, -30}";
+},
+{
 name = cauda;
 position = "{478, -190}";
 },
 {
-name = uvowel;
-position = "{439, 204}";
-},
-{
-name = vocalic_r;
-position = "{319, 155}";
+name = ivowel;
+position = "{374, 432}";
 },
 {
 name = lengthmark;
@@ -8565,12 +8560,16 @@ name = ovowel;
 position = "{340, 356}";
 },
 {
-name = ivowel;
-position = "{374, 432}";
+name = top;
+position = "{406, 712}";
 },
 {
-name = Anchor8;
-position = "{415, -82}";
+name = uvowel;
+position = "{439, 204}";
+},
+{
+name = vocalic_r;
+position = "{319, 155}";
 }
 );
 components = (
@@ -8624,28 +8623,28 @@ layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{415, -82}";
+},
+{
 name = SubYa;
 position = "{539, -66}";
-},
-{
-name = bottom;
-position = "{468, -30}";
-},
-{
-name = top;
-position = "{406, 712}";
 },
 {
 name = anusvara;
 position = "{481, -5}";
 },
 {
+name = bottom;
+position = "{468, -30}";
+},
+{
 name = cauda;
 position = "{478, -190}";
 },
 {
-name = vocalic_r;
-position = "{319, 155}";
+name = ivowel;
+position = "{374, 432}";
 },
 {
 name = lengthmark;
@@ -8656,12 +8655,12 @@ name = ovowel;
 position = "{340, 347}";
 },
 {
-name = ivowel;
-position = "{374, 432}";
+name = top;
+position = "{406, 712}";
 },
 {
-name = Anchor8;
-position = "{415, -82}";
+name = vocalic_r;
+position = "{319, 155}";
 }
 );
 layerId = UUID0;
@@ -8744,37 +8743,29 @@ category = Letter;
 },
 {
 glyphname = MRa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:06:55 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{185, -82}";
+},
+{
 name = SubYa;
 position = "{309, -66}";
-},
-{
-name = bottom;
-position = "{386, -10}";
-},
-{
-name = top;
-position = "{502, 712}";
 },
 {
 name = anusvara;
 position = "{284, 1}";
 },
 {
-name = cauda;
-position = "{431, -6}";
+name = bottom;
+position = "{386, -10}";
 },
 {
-name = uvowel;
-position = "{219, 204}";
-},
-{
-name = vocalic_r;
-position = "{385, 255}";
+name = ivowel;
+position = "{221, 61}";
 },
 {
 name = lengthmark;
@@ -8785,12 +8776,16 @@ name = ovowel;
 position = "{384, 536}";
 },
 {
-name = ivowel;
-position = "{221, 61}";
+name = top;
+position = "{502, 712}";
 },
 {
-name = Anchor8;
-position = "{185, -82}";
+name = uvowel;
+position = "{219, 204}";
+},
+{
+name = vocalic_r;
+position = "{385, 255}";
 }
 );
 layerId = UUID0;
@@ -8847,37 +8842,29 @@ category = Letter;
 },
 {
 glyphname = RMa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:00 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor8;
+position = "{185, -82}";
+},
+{
 name = SubYa;
 position = "{309, -66}";
-},
-{
-name = bottom;
-position = "{305, 0}";
-},
-{
-name = top;
-position = "{453, 712}";
 },
 {
 name = anusvara;
 position = "{284, 1}";
 },
 {
-name = cauda;
-position = "{431, -6}";
+name = bottom;
+position = "{305, 0}";
 },
 {
-name = uvowel;
-position = "{219, 204}";
-},
-{
-name = vocalic_r;
-position = "{395, 255}";
+name = ivowel;
+position = "{221, 67}";
 },
 {
 name = lengthmark;
@@ -8888,12 +8875,16 @@ name = ovowel;
 position = "{285, 68}";
 },
 {
-name = ivowel;
-position = "{221, 67}";
+name = top;
+position = "{453, 712}";
 },
 {
-name = Anchor8;
-position = "{185, -82}";
+name = uvowel;
+position = "{219, 204}";
+},
+{
+name = vocalic_r;
+position = "{395, 255}";
 }
 );
 layerId = UUID0;
@@ -8981,37 +8972,33 @@ category = Letter;
 },
 {
 glyphname = RTa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:12 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{504, -4}";
+},
+{
 name = SubYa;
 position = "{349, -36}";
-},
-{
-name = bottom;
-position = "{329, 0}";
-},
-{
-name = top;
-position = "{379, 712}";
 },
 {
 name = anusvara;
 position = "{524, -20}";
 },
 {
+name = bottom;
+position = "{329, 0}";
+},
+{
 name = cauda;
-position = "{589, -36}";
+position = "{535, -20}";
 },
 {
-name = uvowel;
-position = "{546, 71}";
-},
-{
-name = vocalic_r;
-position = "{198, 238}";
+name = ivowel;
+position = "{258, 530}";
 },
 {
 name = lengthmark;
@@ -9022,12 +9009,16 @@ name = ovowel;
 position = "{326, 541}";
 },
 {
-name = ivowel;
-position = "{258, 530}";
+name = top;
+position = "{379, 712}";
 },
 {
-name = Anchor6;
-position = "{504, -4}";
+name = uvowel;
+position = "{546, 71}";
+},
+{
+name = vocalic_r;
+position = "{198, 238}";
 }
 );
 layerId = UUID0;
@@ -9119,41 +9110,41 @@ category = Letter;
 },
 {
 glyphname = LPa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:17 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor24;
+position = "{565, 489}";
+},
+{
+name = Anchor6;
+position = "{591, 159}";
+},
+{
+name = Anchor8;
 position = "{158, 15}";
 },
 {
-name = bottom;
-position = "{386, 0}";
-},
-{
-name = top;
-position = "{464, 712}";
+name = SubYa;
+position = "{158, 15}";
 },
 {
 name = anusvara;
 position = "{149, -6}";
 },
 {
+name = bottom;
+position = "{386, 0}";
+},
+{
 name = cauda;
-position = "{264, -15}";
+position = "{202, -8}";
 },
 {
-name = uvowel;
-position = "{218, 150}";
-},
-{
-name = Anchor24;
-position = "{565, 489}";
-},
-{
-name = vocalic_r;
-position = "{200, 155}";
+name = ivowel;
+position = "{460, 470}";
 },
 {
 name = lengthmark;
@@ -9168,16 +9159,16 @@ name = subjoined_la;
 position = "{356, 275}";
 },
 {
-name = ivowel;
-position = "{460, 470}";
+name = top;
+position = "{464, 712}";
 },
 {
-name = Anchor6;
-position = "{591, 159}";
+name = uvowel;
+position = "{218, 150}";
 },
 {
-name = Anchor8;
-position = "{158, 15}";
+name = vocalic_r;
+position = "{200, 155}";
 }
 );
 layerId = UUID0;
@@ -9232,37 +9223,29 @@ category = Letter;
 },
 {
 glyphname = LYa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:23 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{331, -206}";
+name = Anchor24;
+position = "{166, 527}";
 },
 {
-name = top;
-position = "{427, 712}";
+name = Anchor8;
+position = "{307, -212}";
 },
 {
 name = anusvara;
 position = "{341, -216}";
 },
 {
-name = cauda;
-position = "{444, -226}";
+name = bottom;
+position = "{331, -206}";
 },
 {
-name = uvowel;
-position = "{258, -49}";
-},
-{
-name = Anchor24;
-position = "{166, 527}";
-},
-{
-name = vocalic_r;
-position = "{340, 335}";
+name = ivowel;
+position = "{208, 470}";
 },
 {
 name = lengthmark;
@@ -9273,12 +9256,16 @@ name = ovowel;
 position = "{336, 421}";
 },
 {
-name = ivowel;
-position = "{208, 470}";
+name = top;
+position = "{427, 712}";
 },
 {
-name = Anchor8;
-position = "{307, -212}";
+name = uvowel;
+position = "{258, -49}";
+},
+{
+name = vocalic_r;
+position = "{340, 335}";
 }
 );
 layerId = UUID0;
@@ -9367,37 +9354,33 @@ category = Letter;
 },
 {
 glyphname = La_ZWJ_Ya_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:26 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{344, -70}";
+name = Anchor24;
+position = "{166, 527}";
 },
 {
-name = top;
-position = "{454, 712}";
+name = Anchor6;
+position = "{515, -129}";
 },
 {
 name = anusvara;
 position = "{476, -121}";
 },
 {
+name = bottom;
+position = "{344, -70}";
+},
+{
 name = cauda;
-position = "{606, -153}";
+position = "{549, -139}";
 },
 {
-name = uvowel;
-position = "{594, 100}";
-},
-{
-name = Anchor24;
-position = "{166, 527}";
-},
-{
-name = vocalic_r;
-position = "{340, 335}";
+name = ivowel;
+position = "{208, 470}";
 },
 {
 name = lengthmark;
@@ -9408,12 +9391,16 @@ name = ovowel;
 position = "{336, 421}";
 },
 {
-name = ivowel;
-position = "{208, 470}";
+name = top;
+position = "{454, 712}";
 },
 {
-name = Anchor6;
-position = "{515, -129}";
+name = uvowel;
+position = "{594, 100}";
+},
+{
+name = vocalic_r;
+position = "{340, 335}";
 }
 );
 layerId = UUID0;
@@ -9474,37 +9461,37 @@ category = Letter;
 },
 {
 glyphname = ShPa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:30 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
+position = "{643, 171}";
+},
+{
+name = Anchor8;
 position = "{340, -7}";
 },
 {
-name = bottom;
-position = "{387, 0}";
-},
-{
-name = top;
-position = "{359, 712}";
+name = SubYa;
+position = "{340, -7}";
 },
 {
 name = anusvara;
 position = "{298, 0}";
 },
 {
+name = bottom;
+position = "{387, 0}";
+},
+{
 name = cauda;
-position = "{437, -15}";
+position = "{379, -16}";
 },
 {
-name = uvowel;
-position = "{379, 55}";
-},
-{
-name = vocalic_r;
-position = "{410, 155}";
+name = ivowel;
+position = "{275, 470}";
 },
 {
 name = lengthmark;
@@ -9515,16 +9502,16 @@ name = ovowel;
 position = "{500, 476}";
 },
 {
-name = ivowel;
-position = "{275, 470}";
+name = top;
+position = "{359, 712}";
 },
 {
-name = Anchor6;
-position = "{643, 171}";
+name = uvowel;
+position = "{379, 55}";
 },
 {
-name = Anchor8;
-position = "{340, -7}";
+name = vocalic_r;
+position = "{410, 155}";
 }
 );
 layerId = UUID0;
@@ -9578,37 +9565,37 @@ category = Letter;
 },
 {
 glyphname = SPa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:38 +0000";
 layers = (
 {
 anchors = (
 {
-name = SubYa;
+name = Anchor6;
+position = "{380, -12}";
+},
+{
+name = Anchor8;
 position = "{116, -7}";
 },
 {
-name = bottom;
-position = "{283, 0}";
-},
-{
-name = top;
-position = "{334, 712}";
+name = SubYa;
+position = "{116, -7}";
 },
 {
 name = anusvara;
 position = "{414, -18}";
 },
 {
+name = bottom;
+position = "{283, 0}";
+},
+{
 name = cauda;
-position = "{214, -16}";
+position = "{155, -16}";
 },
 {
-name = uvowel;
-position = "{146, 67}";
-},
-{
-name = vocalic_r;
-position = "{180, 155}";
+name = ivowel;
+position = "{123, 470}";
 },
 {
 name = lengthmark;
@@ -9619,16 +9606,16 @@ name = ovowel;
 position = "{247, 406}";
 },
 {
-name = ivowel;
-position = "{123, 470}";
+name = top;
+position = "{334, 712}";
 },
 {
-name = Anchor6;
-position = "{380, -12}";
+name = uvowel;
+position = "{146, 67}";
 },
 {
-name = Anchor8;
-position = "{116, -7}";
+name = vocalic_r;
+position = "{180, 155}";
 }
 );
 layerId = UUID0;
@@ -9686,7 +9673,7 @@ nodes = (
 "487 137 OFFCURVE",
 "487 140 CURVE SMOOTH",
 "487 142 LINE SMOOTH",
-"486 236 OFFCURVE",
+"487 236 OFFCURVE",
 "423 276 OFFCURVE",
 "259 284 CURVE",
 "273 348 LINE",
@@ -9703,33 +9690,29 @@ category = Letter;
 },
 {
 glyphname = STa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:43 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{287, 0}";
-},
-{
-name = top;
-position = "{315, 712}";
+name = Anchor6;
+position = "{274, 0}";
 },
 {
 name = anusvara;
 position = "{308, -20}";
 },
 {
+name = bottom;
+position = "{287, 0}";
+},
+{
 name = cauda;
-position = "{370, -10}";
+position = "{309, -17}";
 },
 {
-name = uvowel;
-position = "{319, 79}";
-},
-{
-name = vocalic_r;
-position = "{380, 155}";
+name = ivowel;
+position = "{147, 425}";
 },
 {
 name = lengthmark;
@@ -9740,12 +9723,16 @@ name = ovowel;
 position = "{469, 407}";
 },
 {
-name = ivowel;
-position = "{147, 425}";
+name = top;
+position = "{315, 712}";
 },
 {
-name = Anchor6;
-position = "{274, 0}";
+name = uvowel;
+position = "{319, 79}";
+},
+{
+name = vocalic_r;
+position = "{380, 155}";
 }
 );
 layerId = UUID0;
@@ -9806,37 +9793,33 @@ category = Letter;
 },
 {
 glyphname = STha_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:47 +0000";
 layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{274, 0}";
+},
+{
 name = SubYa;
 position = "{284, 18}";
-},
-{
-name = bottom;
-position = "{287, 0}";
-},
-{
-name = top;
-position = "{315, 712}";
 },
 {
 name = anusvara;
 position = "{308, -20}";
 },
 {
+name = bottom;
+position = "{287, 0}";
+},
+{
 name = cauda;
-position = "{369, -12}";
+position = "{305, -17}";
 },
 {
-name = uvowel;
-position = "{319, 79}";
-},
-{
-name = vocalic_r;
-position = "{380, 155}";
+name = ivowel;
+position = "{147, 425}";
 },
 {
 name = lengthmark;
@@ -9851,12 +9834,16 @@ name = subjoined_la;
 position = "{418, 215}";
 },
 {
-name = ivowel;
-position = "{147, 425}";
+name = top;
+position = "{315, 712}";
 },
 {
-name = Anchor6;
-position = "{274, 0}";
+name = uvowel;
+position = "{319, 79}";
+},
+{
+name = vocalic_r;
+position = "{380, 155}";
 }
 );
 layerId = UUID0;
@@ -9921,33 +9908,25 @@ category = Letter;
 },
 {
 glyphname = SYa_khar;
-lastChange = "2019-12-16 17:27:41 +0000";
+lastChange = "2023-01-02 11:07:53 +0000";
 layers = (
 {
 anchors = (
 {
-name = bottom;
-position = "{513, -11}";
-},
-{
-name = top;
-position = "{681, 857}";
+name = Anchor8;
+position = "{186, -82}";
 },
 {
 name = anusvara;
 position = "{230, -82}";
 },
 {
-name = cauda;
-position = "{320, -94}";
+name = bottom;
+position = "{513, -11}";
 },
 {
-name = uvowel;
-position = "{236, 80}";
-},
-{
-name = vocalic_r;
-position = "{550, 395}";
+name = ivowel;
+position = "{476, 633}";
 },
 {
 name = lengthmark;
@@ -9958,12 +9937,16 @@ name = ovowel;
 position = "{598, 561}";
 },
 {
-name = ivowel;
-position = "{476, 633}";
+name = top;
+position = "{681, 857}";
 },
 {
-name = Anchor8;
-position = "{186, -82}";
+name = uvowel;
+position = "{236, 80}";
+},
+{
+name = vocalic_r;
+position = "{550, 395}";
 }
 );
 layerId = UUID0;
@@ -10102,36 +10085,32 @@ layers = (
 {
 anchors = (
 {
+name = Anchor6;
+position = "{292, 31}";
+},
+{
+name = Anchor8;
+position = "{178, -59}";
+},
+{
 name = SubYa;
 position = "{433, -6}";
-},
-{
-name = bottom;
-position = "{284, 0}";
-},
-{
-name = top;
-position = "{296, 540}";
 },
 {
 name = anusvara;
 position = "{377, 42}";
 },
 {
+name = bottom;
+position = "{284, 0}";
+},
+{
 name = cauda;
 position = "{431, 30}";
 },
 {
-name = uvowel;
-position = "{273, 129}";
-},
-{
-name = subjoined_ma;
-position = "{294, -14}";
-},
-{
-name = vocalic_r;
-position = "{300, 61}";
+name = ivowel;
+position = "{243, 280}";
 },
 {
 name = lengthmark;
@@ -10146,16 +10125,20 @@ name = subjoined_la;
 position = "{511, 255}";
 },
 {
-name = ivowel;
-position = "{243, 280}";
+name = subjoined_ma;
+position = "{294, -14}";
 },
 {
-name = Anchor6;
-position = "{292, 31}";
+name = top;
+position = "{296, 540}";
 },
 {
-name = Anchor8;
-position = "{178, -59}";
+name = uvowel;
+position = "{273, 129}";
+},
+{
+name = vocalic_r;
+position = "{300, 61}";
 }
 );
 layerId = UUID0;
@@ -11384,11 +11367,11 @@ name = Anchor40;
 position = "{-190, -208}";
 },
 {
-name = _SubYa;
+name = _Anchor6;
 position = "{-67, 1}";
 },
 {
-name = _Anchor6;
+name = _SubYa;
 position = "{-67, 1}";
 }
 );
@@ -11450,11 +11433,11 @@ name = Anchor40;
 position = "{-247, -244}";
 },
 {
-name = _SubYa;
+name = _Anchor6;
 position = "{-131, 3}";
 },
 {
-name = _Anchor6;
+name = _SubYa;
 position = "{-131, 3}";
 }
 );
@@ -11578,11 +11561,11 @@ name = Anchor40;
 position = "{-246, -213}";
 },
 {
-name = _SubYa;
+name = _Anchor6;
 position = "{-135, -1}";
 },
 {
-name = _Anchor6;
+name = _SubYa;
 position = "{-135, -1}";
 }
 );
@@ -11641,15 +11624,15 @@ name = Anchor40;
 position = "{-173, -218}";
 },
 {
-name = _SubYa;
-position = "{-61, 0}";
-},
-{
 name = _Anchor6;
 position = "{-61, 0}";
 },
 {
 name = _Anchor8;
+position = "{-61, 0}";
+},
+{
+name = _SubYa;
 position = "{-61, 0}";
 }
 );
@@ -12340,25 +12323,25 @@ subCategory = Nonspacing;
 },
 {
 glyphname = Cauda_khar.short;
-lastChange = "2019-12-16 17:27:38 +0000";
+lastChange = "2023-01-02 10:41:58 +0000";
 layers = (
 {
 anchors = (
 {
 name = Anchor38;
-position = "{-120, -92}";
+position = "{-187, -32}";
 },
 {
 name = Anchor40;
-position = "{-228, -12}";
-},
-{
-name = _cauda;
-position = "{-211, 3}";
+position = "{-200, -9}";
 },
 {
 name = _Anchor36;
-position = "{-211, 3}";
+position = "{-308, -17}";
+},
+{
+name = _cauda;
+position = "{-308, -17}";
 }
 );
 layerId = UUID0;
@@ -12366,20 +12349,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-353 16 LINE",
-"-309 -3 OFFCURVE",
-"-270 -12 OFFCURVE",
-"-228 -12 CURVE SMOOTH",
-"-151 -12 OFFCURVE",
-"-99 18 OFFCURVE",
-"-46 56 CURVE",
-"-74 108 LINE",
-"-125 71 OFFCURVE",
-"-169 56 OFFCURVE",
-"-223 54 CURVE SMOOTH",
-"-258 53 OFFCURVE",
-"-286 58 OFFCURVE",
-"-324 72 CURVE"
+"-277 9 OFFCURVE",
+"-253 23 OFFCURVE",
+"-220 34 CURVE SMOOTH",
+"-168 51 OFFCURVE",
+"-122 52 OFFCURVE",
+"-61 35 CURVE",
+"-53 93 LINE",
+"-115 111 OFFCURVE",
+"-174 121 OFFCURVE",
+"-247 95 CURVE SMOOTH",
+"-286 80 OFFCURVE",
+"-320 58 OFFCURVE",
+"-355 26 CURVE",
+"-308 -17 LINE"
 );
 }
 );
@@ -12391,25 +12374,25 @@ subCategory = Nonspacing;
 },
 {
 glyphname = Cauda_khar.short2;
-lastChange = "2019-12-16 17:27:38 +0000";
+lastChange = "2023-01-02 10:42:18 +0000";
 layers = (
 {
 anchors = (
 {
 name = Anchor38;
-position = "{-40, -92}";
+position = "{-130, -74}";
 },
 {
 name = Anchor40;
-position = "{-135, -9}";
-},
-{
-name = _cauda;
-position = "{-111, 3}";
+position = "{-140, -11}";
 },
 {
 name = _Anchor36;
-position = "{-111, 3}";
+position = "{-205, -27}";
+},
+{
+name = _cauda;
+position = "{-205, -27}";
 }
 );
 layerId = UUID0;
@@ -12417,20 +12400,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-41 85 LINE",
-"-66 69 OFFCURVE",
-"-99 57 OFFCURVE",
-"-137 57 CURVE SMOOTH",
-"-164 57 OFFCURVE",
-"-192 63 OFFCURVE",
-"-223 75 CURVE",
-"-253 17 LINE",
-"-209 -2 OFFCURVE",
-"-174 -9 OFFCURVE",
-"-136 -9 CURVE SMOOTH",
-"-90 -9 OFFCURVE",
-"-51 7 OFFCURVE",
-"-14 30 CURVE"
+"-67 95 OFFCURVE",
+"-109 97 OFFCURVE",
+"-152 81 CURVE SMOOTH",
+"-188 68 OFFCURVE",
+"-218 50 OFFCURVE",
+"-253 17 CURVE",
+"-205 -27 LINE",
+"-180 -6 OFFCURVE",
+"-156 10 OFFCURVE",
+"-130 19 CURVE SMOOTH",
+"-95 32 OFFCURVE",
+"-59 32 OFFCURVE",
+"-31 25 CURVE",
+"-24 86 LINE"
 );
 }
 );
