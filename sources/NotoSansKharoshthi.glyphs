@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/SYa_khar"
+"/Mi_khar/Ma_khar"
 );
 classes = (
 {
@@ -311,7 +311,7 @@ code = "lookup LigatureSubstitution2 {\012    lookupflag UseMarkFilteringSet [Vi
 name = cjct;
 },
 {
-code = "lookup LigatureSubstitution3 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    sub Virama_khar La_khar by SubLa_khar;\012    sub Virama_khar Ma_khar by SubMa_khar;\012    sub Virama_khar Ra_khar by SubRa_khar;\012    sub Virama_khar Va_khar by SubVa_khar;\012    sub Virama_khar Ya_khar by SubYa_khar;\012} LigatureSubstitution3;\012\012lookup LigatureSubstitution7 {\012    lookupflag UseMarkFilteringSet @Vowels;\012    sub A_khar E_khar by AE_khar;\012    sub A_khar I_khar by AI_khar;\012    sub Nna_khar I_khar by Nni_khar;\012    sub Nna_khar O_khar by Nno_khar;\012    sub Nna_khar U_khar by Nnu_khar;\012    sub Dha_khar I_khar Ka_khar Virama_khar by Dhik_khar;\012    sub Na_khar E_khar by Ne_khar;\012    sub Na_khar I_khar by Ni_khar;\012    sub Ma_khar E_khar by Me_khar;\012    sub Ma_khar O_khar by Mo_khar;\012    sub Ma_khar U_khar by Mu_khar;\012    sub Ha_khar E_khar by He_khar;\012    sub Ha_khar I_khar by Hi_khar;\012    sub MMa_khar E_khar by MMe_khar;\012} LigatureSubstitution7;\012";
+code = "lookup LigatureSubstitution3 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    sub Virama_khar La_khar by SubLa_khar;\012    sub Virama_khar Ma_khar by SubMa_khar;\012    sub Virama_khar Ra_khar by SubRa_khar;\012    sub Virama_khar Va_khar by SubVa_khar;\012    sub Virama_khar Ya_khar by SubYa_khar;\012} LigatureSubstitution3;\012\012lookup LigatureSubstitution7 {\012    lookupflag UseMarkFilteringSet @Vowels;\012    sub A_khar E_khar by AE_khar;\012    sub A_khar I_khar by AI_khar;\012    sub Nna_khar I_khar by Nni_khar;\012    sub Nna_khar O_khar by Nno_khar;\012    sub Nna_khar U_khar by Nnu_khar;\012    sub Dha_khar I_khar Ka_khar Virama_khar by Dhik_khar;\012    sub Na_khar E_khar by Ne_khar;\012    sub Na_khar I_khar by Ni_khar;\012    sub Ma_khar E_khar by Me_khar;\012    sub Ma_khar I_khar by Mi_khar;\012    sub Ma_khar O_khar by Mo_khar;\012    sub Ma_khar U_khar by Mu_khar;\012    sub Ha_khar E_khar by He_khar;\012    sub Ha_khar I_khar by Hi_khar;\012    sub MMa_khar E_khar by MMe_khar;\012} LigatureSubstitution7;\012";
 name = rclt;
 },
 {
@@ -12422,6 +12422,31 @@ width = 0;
 );
 category = Mark;
 subCategory = Nonspacing;
+},
+{
+glyphname = Mi_khar;
+lastChange = "2023-01-02 11:13:04 +0000";
+layers = (
+{
+anchors = (
+{
+name = cauda;
+position = "{278, -13}";
+}
+);
+components = (
+{
+name = Ma_khar;
+},
+{
+name = I_diagonal;
+transform = "{1, 0, 0, 1, 536, -58}";
+}
+);
+layerId = UUID0;
+width = 696;
+}
+);
 }
 );
 instances = (
