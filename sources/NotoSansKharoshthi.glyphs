@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/Mi_khar/Ma_khar"
+"/Cha_khar"
 );
 classes = (
 {
@@ -1706,7 +1706,7 @@ category = Letter;
 },
 {
 glyphname = Cha_khar;
-lastChange = "2023-01-02 10:47:25 +0000";
+lastChange = "2023-01-02 11:41:46 +0000";
 layers = (
 {
 anchors = (
@@ -1732,7 +1732,7 @@ position = "{317, 0}";
 },
 {
 name = cauda;
-position = "{312, -15}";
+position = "{278, -42}";
 },
 {
 name = ivowel;
