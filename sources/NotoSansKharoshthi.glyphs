@@ -541,43 +541,43 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{334, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{327, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{287, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{371, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{370, 186}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{424, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 406}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{397, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{302, 425}";
 },
 {
@@ -632,7 +632,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor4;
+name = _ivowel;
 position = "{-131, 560}";
 }
 );
@@ -679,7 +679,7 @@ name = Anchor40;
 position = "{-232, -114}";
 },
 {
-name = _Anchor20;
+name = _uvowel;
 position = "{-69, 60}";
 }
 );
@@ -734,7 +734,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _vocalic_r;
 position = "{-190, 223}";
 }
 );
@@ -798,7 +798,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor14;
+name = _top;
 position = "{-263, 714}";
 },
 {
@@ -836,7 +836,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor30;
+name = _ovowel;
 position = "{-78, 267}";
 }
 );
@@ -870,7 +870,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor28;
+name = _lengthmark;
 position = "{-172, 226}";
 }
 );
@@ -919,7 +919,7 @@ name = Anchor40;
 position = "{-221, -243}";
 },
 {
-name = _Anchor12;
+name = _bottom;
 position = "{-220, 0}";
 },
 {
@@ -1015,7 +1015,7 @@ name = Anchor40;
 position = "{-210, -207}";
 },
 {
-name = _Anchor16;
+name = _anusvara;
 position = "{-209, 0}";
 },
 {
@@ -1069,7 +1069,7 @@ name = Anchor34;
 position = "{-200, 913}";
 },
 {
-name = _Anchor14;
+name = _top;
 position = "{-200, 714}";
 },
 {
@@ -1132,47 +1132,47 @@ name = SubYa;
 position = "{330, -7}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{347, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{312, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{297, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{407, -52}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{371, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{359, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{417, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{699, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 406}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{397, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{302, 425}";
 },
 {
@@ -1247,47 +1247,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{286, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{318, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{315, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{448, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{389, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{376, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{412, 125}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{439, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{342, 266}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{386, 65}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{276, 425}";
 },
 {
@@ -1348,47 +1348,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{340, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{375, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{250, -10}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{349, -20}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{303, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{266, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{282, 175}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{303, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{367, 447}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{330, 205}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{217, 426}";
 },
 {
@@ -1464,47 +1464,47 @@ name = SubYa;
 position = "{240, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{240, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{375, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{252, -11}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{349, -21}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{303, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{256, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{275, 115}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{561, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{367, 447}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{290, 175}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{217, 426}";
 },
 {
@@ -1598,47 +1598,47 @@ name = SubYa;
 position = "{262, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{292, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{314, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{305, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{344, -40}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{349, 145}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{350, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{402, 175}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{402, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{460, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{412, 205}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{142, 425}";
 },
 {
@@ -1708,47 +1708,47 @@ name = SubYa;
 position = "{265, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{317, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{420, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{268, -10}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{349, -59}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{328, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{302, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{311, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{587, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{294, 187}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{367, 75}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{252, 425}";
 },
 {
@@ -1847,47 +1847,47 @@ name = SubYa;
 position = "{101, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{279, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{338, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{158, 5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{199, -25}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{196, 149}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{200, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{279, 175}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{239, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{409, 467}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{279, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{197, 470}";
 },
 {
@@ -1938,47 +1938,47 @@ name = SubYa;
 position = "{14, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{314, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{408, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{68, 5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{111, -27}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{130, 165}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{102, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{154, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{144, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{259, 431}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{214, 245}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{363, 425}";
 },
 {
@@ -2050,47 +2050,47 @@ name = SubYa;
 position = "{422, -37}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{323, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{298, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{328, -90}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{309, -31}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{85, 0}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{349, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{344, 351}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{477, 117}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{319, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{361, 430}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{174, 426}";
 },
 {
@@ -2151,47 +2151,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{307, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{315, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{309, 5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{445, -11}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{387, 56}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{387, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{410, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{430, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 406}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{437, 245}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{257, 425}";
 },
 {
@@ -2256,47 +2256,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{288, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{322, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{289, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{425, -15}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{378, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{338, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{363, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{385, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{418, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{398, 205}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{238, 354}";
 },
 {
@@ -2378,47 +2378,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{232, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{383, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{175, -10}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{277, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{230, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{202, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{213, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{237, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{272, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{252, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{136, 426}";
 },
 {
@@ -2463,43 +2463,43 @@ name = SubYa;
 position = "{210, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{190, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{198, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{139, -19}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{282, -30}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{231, 58}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{160, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{158, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{196, 53}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{180, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{210, 352}";
 },
 {
@@ -2553,47 +2553,47 @@ name = SubYa;
 position = "{320, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{300, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{323, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{143, -17}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{283, -28}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{227, 166}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{329, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{471, 245}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{384, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{500, 461}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{420, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{281, 469}";
 }
 );
@@ -2650,27 +2650,27 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{262, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{397, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{203, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{319, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{272, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{245, 186}";
 },
 {
@@ -2678,23 +2678,23 @@ name = Anchor24;
 position = "{158, 525}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{255, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{282, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{312, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{302, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{188, 470}";
 },
 {
@@ -2755,47 +2755,47 @@ name = SubYa;
 position = "{305, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{243, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{241, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{260, -10}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{383, -20}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{303, 171}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{249, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{395, 215}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{383, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{322, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{383, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{309, 471}";
 },
 {
@@ -2860,47 +2860,47 @@ name = SubYa;
 position = "{237, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{267, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{267, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{263, -22}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{325, -34}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{320, 145}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{317, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{402, 185}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{387, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{397, 376}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{397, 245}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{206, 427}";
 },
 {
@@ -2965,47 +2965,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{251, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{263, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{184, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{312, -12}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{252, 56}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{261, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{291, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{301, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{311, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{331, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{231, 357}";
 },
 {
@@ -3070,27 +3070,27 @@ name = SubYa;
 position = "{74, 18}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{282, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{344, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{69, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{183, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{134, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{112, 186}";
 },
 {
@@ -3098,23 +3098,23 @@ name = Anchor24;
 position = "{394, 489}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{117, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{448, 150}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{306, 259}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{172, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{367, 470}";
 },
 {
@@ -3175,27 +3175,27 @@ name = SubYa;
 position = "{158, 18}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{346, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{404, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{149, -6}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{264, -16}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{218, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{192, 186}";
 },
 {
@@ -3203,23 +3203,23 @@ name = Anchor24;
 position = "{486, 489}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{198, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{536, 150}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{384, 259}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{246, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{451, 470}";
 },
 {
@@ -3287,47 +3287,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{315, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{337, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{313, 6}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{453, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{388, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{400, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{426, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{445, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{495, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{465, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{186, 426}";
 },
 {
@@ -3398,47 +3398,47 @@ name = SubYa;
 position = "{181, 18}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{349, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{394, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{168, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{287, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{241, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{213, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{221, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{580, 150}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{287, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{269, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{145, 426}";
 },
 {
@@ -3513,39 +3513,39 @@ name = SubYa;
 position = "{470, 175}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{386, 255}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{406, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{389, 145}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{351, 0}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{378, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{408, 115}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{550, 320}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{398, 175}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{388, 432}";
 },
 {
@@ -3604,47 +3604,47 @@ name = SubYa;
 position = "{39, 0}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{308, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{372, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{312, 5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{671, -29}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{81, 70}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{95, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{137, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{545, -10}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{321, 261}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{211, 281}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{441, 425}";
 },
 {
@@ -3688,43 +3688,43 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{278, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{306, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{317, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{361, -45}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{323, 69}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{378, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{379, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{468, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{398, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{247, 425}";
 },
 {
@@ -3779,27 +3779,27 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{266, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{417, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{249, -7}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{371, -15}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{323, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{286, 186}";
 },
 {
@@ -3807,23 +3807,23 @@ name = Anchor24;
 position = "{166, 527}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{299, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{328, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{336, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{346, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{208, 470}";
 },
 {
@@ -3870,47 +3870,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{287, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{315, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{308, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{369, -12}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{323, 80}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{327, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{380, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{377, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 447}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{426, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{237, 425}";
 },
 {
@@ -3959,47 +3959,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{297, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{469, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{468, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{604, -21}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{549, 55}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{120, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{139, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{596, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{412, 356}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{200, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{435, 470}";
 },
 {
@@ -4058,47 +4058,47 @@ name = SubYa;
 position = "{142, 10}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{352, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{411, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{153, -25}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{227, -27}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{255, 168}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{230, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{281, 185}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{267, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{288, 317}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{332, 245}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{231, 470}";
 },
 {
@@ -4164,47 +4164,47 @@ name = SubYa;
 position = "{36, 10}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{283, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{334, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{47, -24}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{122, -27}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{141, 165}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{116, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{170, 159}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{163, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{247, 406}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{231, 205}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{113, 470}";
 },
 {
@@ -4276,47 +4276,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{305, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{349, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{338, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{455, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{408, 150}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{370, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{393, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{415, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{454, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{426, 245}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{309, 427}";
 },
 {
@@ -4379,47 +4379,47 @@ name = SubYa;
 position = "{394, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{284, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{313, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{318, -90}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{231, -176}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{54, 0}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{294, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{300, -170}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{418, 38}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{394, 417}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{304, -95}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{274, 350}";
 },
 {
@@ -4500,47 +4500,47 @@ name = SubYa;
 position = "{330, -7}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{337, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{334, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{297, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{408, -51}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{371, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{359, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{417, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{703, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 406}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{423, 175}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{302, 425}";
 },
 {
@@ -4619,47 +4619,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{389, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{360, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{348, 5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{484, -14}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{427, 60}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{418, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{450, 115}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{475, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{480, 294}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{433, 115}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{326, 426}";
 },
 {
@@ -4730,47 +4730,47 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{179, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{298, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{177, -19}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{229, -39}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{194, 80}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{203, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{254, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{239, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{319, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{301, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{174, 426}";
 },
 {
@@ -4824,47 +4824,47 @@ name = SubYa;
 position = "{401, -6}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{287, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{315, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{308, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{353, -43}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{324, 80}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{327, 186}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{360, 135}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{377, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{461, 407}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{426, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{237, 425}";
 },
 {
@@ -4945,7 +4945,7 @@ name = Anchor34;
 position = "{-300, 868}";
 },
 {
-name = _Anchor14;
+name = _top;
 position = "{-301, 714}";
 },
 {
@@ -4987,7 +4987,7 @@ name = Anchor40;
 position = "{-310, -12}";
 },
 {
-name = _Anchor18;
+name = _cauda;
 position = "{-311, 3}";
 },
 {
@@ -5043,7 +5043,7 @@ name = Anchor40;
 position = "{-137, -195}";
 },
 {
-name = _Anchor12;
+name = _bottom;
 position = "{-137, 0}";
 },
 {
@@ -5085,7 +5085,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor12;
+name = _bottom;
 position = "{-252, 0}";
 },
 {
@@ -6270,27 +6270,27 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{334, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{327, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{287, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, -6}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{420, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 406}";
 }
 );
@@ -6317,23 +6317,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{334, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{327, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{287, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, -6}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{420, 100}";
 }
 );
@@ -6371,23 +6371,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{272, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{270, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{211, -19}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{353, -30}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{273, 53}";
 }
 );
@@ -6447,19 +6447,19 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{220, -120}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{328, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{269, -89}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{333, 53}";
 }
 );
@@ -6599,19 +6599,19 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{390, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{388, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{329, -19}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{393, 53}";
 }
 );
@@ -6669,27 +6669,27 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{251, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{263, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{184, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{315, -6}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{299, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{311, 421}";
 }
 );
@@ -6716,23 +6716,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{251, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{263, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{184, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{315, -7}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{299, 100}";
 }
 );
@@ -6774,19 +6774,19 @@ name = SubYa;
 position = "{293, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{213, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{301, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{228, -103}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{274, 0}";
 },
 {
@@ -6855,27 +6855,27 @@ name = SubYa;
 position = "{470, 175}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{376, 255}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{406, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{389, 145}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{351, 0}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{499, 300}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{340, 355}";
 },
 {
@@ -6942,23 +6942,23 @@ name = SubYa;
 position = "{470, 175}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{386, 125}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{406, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{389, 145}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{351, 0}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{499, 300}";
 },
 {
@@ -7033,31 +7033,31 @@ name = SubYa;
 position = "{502, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{401, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{408, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{448, -93}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{361, -200}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{391, -57}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{642, 100}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{183, 365}";
 },
 {
@@ -7116,39 +7116,39 @@ name = SubYa;
 position = "{394, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{284, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{313, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{318, -90}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{231, -176}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{54, 0}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{294, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{300, -170}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{418, 38}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{394, 417}";
 },
 {
@@ -7187,35 +7187,35 @@ name = SubYa;
 position = "{394, -67}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{284, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{313, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{318, -90}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{231, -176}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{54, 0}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{294, -45}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{300, -170}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{418, 38}";
 },
 {
@@ -7265,43 +7265,43 @@ name = SubYa;
 position = "{329, -336}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{412, -239}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{302, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{282, -250}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{326, -384}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{255, -105}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{430, 255}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{685, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{439, 58}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{448, -95}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{255, 104}";
 },
 {
@@ -7403,43 +7403,43 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{291, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{331, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{281, -15}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{417, -22}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{303, 90}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{317, 165}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{329, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{353, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{344, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{248, 440}";
 },
 {
@@ -7507,43 +7507,43 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{324, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{361, 876}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{281, -15}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{417, -22}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{303, 90}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{316, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{342, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{353, 421}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{324, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{267, 440}";
 },
 {
@@ -7648,35 +7648,35 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{284, -257}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{323, 772}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{378, -288}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{243, -424}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{471, 216}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{459, 100}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{188, -217}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{122, -18}";
 }
 );
@@ -7798,43 +7798,43 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{392, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{504, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{441, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{230, -25}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{201, 104}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{310, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{245, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{415, 431}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{362, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{224, 470}";
 },
 {
@@ -7915,39 +7915,39 @@ name = SubYa;
 position = "{519, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{348, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{348, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{471, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{441, -176}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{269, 0}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{430, 278}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{576, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{480, 427}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{271, 479}";
 },
 {
@@ -8024,39 +8024,39 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{313, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{334, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{77, -24}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{152, -27}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{171, 165}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{190, 125}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{193, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{282, 478}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{159, 470}";
 },
 {
@@ -8165,39 +8165,39 @@ name = SubYa;
 position = "{419, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{430, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{430, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{322, -8}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{521, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{105, 0}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{274, 203}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{569, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{526, 521}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{281, 479}";
 },
 {
@@ -8276,23 +8276,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{190, -281}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{375, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{190, -283}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{292, -294}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{247, -114}";
 },
 {
@@ -8300,19 +8300,19 @@ name = Anchor24;
 position = "{561, 489}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{230, -135}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{539, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{280, 65}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{145, 71}";
 },
 {
@@ -8410,23 +8410,23 @@ name = SubYa;
 position = "{309, -336}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{280, -258}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{397, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{281, -250}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{296, -384}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{224, -109}";
 },
 {
@@ -8434,19 +8434,19 @@ name = Anchor24;
 position = "{547, 489}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{328, 321}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{463, -7}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{428, 58}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{170, 104}";
 },
 {
@@ -8533,39 +8533,39 @@ name = SubYa;
 position = "{539, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{468, -30}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{406, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{481, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{478, -190}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{439, 204}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{319, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{577, 12}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{340, 356}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{374, 432}";
 },
 {
@@ -8628,35 +8628,35 @@ name = SubYa;
 position = "{539, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{468, -30}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{406, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{481, -5}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{478, -190}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{319, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{577, 12}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{340, 347}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{374, 432}";
 },
 {
@@ -8753,39 +8753,39 @@ name = SubYa;
 position = "{309, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{386, -10}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{502, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{284, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{219, 204}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{385, 255}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{419, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{384, 536}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{221, 61}";
 },
 {
@@ -8856,39 +8856,39 @@ name = SubYa;
 position = "{309, -66}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{305, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{453, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{284, 1}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, -6}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{219, 204}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{395, 255}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{417, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{285, 68}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{221, 67}";
 },
 {
@@ -8990,39 +8990,39 @@ name = SubYa;
 position = "{349, -36}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{329, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{379, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{524, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{589, -36}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{546, 71}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{198, 238}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{546, 0}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{326, 541}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{258, 530}";
 },
 {
@@ -9128,23 +9128,23 @@ name = SubYa;
 position = "{158, 15}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{386, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{464, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{149, -6}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{264, -15}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{218, 150}";
 },
 {
@@ -9152,23 +9152,23 @@ name = Anchor24;
 position = "{565, 489}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{200, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{631, 134}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{465, 259}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{356, 275}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{460, 470}";
 },
 {
@@ -9237,23 +9237,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{331, -206}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{427, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{341, -216}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{444, -226}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{258, -49}";
 },
 {
@@ -9261,19 +9261,19 @@ name = Anchor24;
 position = "{166, 527}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{340, 335}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{479, -85}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{336, 421}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{208, 470}";
 },
 {
@@ -9372,23 +9372,23 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{344, -70}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{454, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{476, -121}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{606, -153}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{594, 100}";
 },
 {
@@ -9396,19 +9396,19 @@ name = Anchor24;
 position = "{166, 527}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{340, 335}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{572, 29}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{336, 421}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{208, 470}";
 },
 {
@@ -9483,39 +9483,39 @@ name = SubYa;
 position = "{340, -7}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{387, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{359, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{298, 0}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{437, -15}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{379, 55}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{410, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{420, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{500, 476}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{275, 470}";
 },
 {
@@ -9587,39 +9587,39 @@ name = SubYa;
 position = "{116, -7}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{283, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{334, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{414, -18}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{214, -16}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{146, 67}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{180, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{456, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{247, 406}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{123, 470}";
 },
 {
@@ -9708,39 +9708,39 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{287, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{315, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{308, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{370, -10}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{319, 79}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{380, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{377, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 407}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{147, 425}";
 },
 {
@@ -9815,43 +9815,43 @@ name = SubYa;
 position = "{284, 18}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{287, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{315, 712}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{308, -20}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{369, -12}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{319, 79}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{380, 155}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{379, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{469, 407}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{418, 215}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{147, 425}";
 },
 {
@@ -9926,39 +9926,39 @@ layers = (
 {
 anchors = (
 {
-name = Anchor12;
+name = bottom;
 position = "{513, -11}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{681, 857}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{230, -82}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{320, -94}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{236, 80}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{550, 395}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{379, 100}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{598, 561}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{476, 633}";
 },
 {
@@ -10106,47 +10106,47 @@ name = SubYa;
 position = "{433, -6}";
 },
 {
-name = Anchor12;
+name = bottom;
 position = "{284, 0}";
 },
 {
-name = Anchor14;
+name = top;
 position = "{296, 540}";
 },
 {
-name = Anchor16;
+name = anusvara;
 position = "{377, 42}";
 },
 {
-name = Anchor18;
+name = cauda;
 position = "{431, 30}";
 },
 {
-name = Anchor20;
+name = uvowel;
 position = "{273, 129}";
 },
 {
-name = Anchor22;
+name = subjoined_ma;
 position = "{294, -14}";
 },
 {
-name = Anchor26;
+name = vocalic_r;
 position = "{300, 61}";
 },
 {
-name = Anchor28;
+name = lengthmark;
 position = "{467, 106}";
 },
 {
-name = Anchor30;
+name = ovowel;
 position = "{363, 310}";
 },
 {
-name = Anchor32;
+name = subjoined_la;
 position = "{511, 255}";
 },
 {
-name = Anchor4;
+name = ivowel;
 position = "{243, 280}";
 },
 {
@@ -10447,7 +10447,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor4;
+name = _ivowel;
 position = "{-174, 426}";
 }
 );
@@ -10481,7 +10481,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor4;
+name = _ivowel;
 position = "{-150, 470}";
 }
 );
@@ -10546,7 +10546,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor4;
+name = _ivowel;
 position = "{-122, 470}";
 }
 );
@@ -10615,7 +10615,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor30;
+name = _ovowel;
 position = "{-97, 197}";
 }
 );
@@ -10648,7 +10648,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor30;
+name = _ovowel;
 position = "{-146, 362}";
 }
 );
@@ -10681,7 +10681,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor30;
+name = _ovowel;
 position = "{-146, 362}";
 }
 );
@@ -10718,7 +10718,7 @@ name = Anchor40;
 position = "{-140, -14}";
 },
 {
-name = _Anchor20;
+name = _uvowel;
 position = "{-7, 171}";
 }
 );
@@ -10776,7 +10776,7 @@ name = Anchor40;
 position = "{-199, -33}";
 },
 {
-name = _Anchor20;
+name = _uvowel;
 position = "{-42, 169}";
 }
 );
@@ -10842,7 +10842,7 @@ name = Anchor40;
 position = "{-181, -132}";
 },
 {
-name = _Anchor20;
+name = _uvowel;
 position = "{3, 166}";
 }
 );
@@ -10896,7 +10896,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor20;
+name = _uvowel;
 position = "{-66, 0}";
 }
 );
@@ -10950,7 +10950,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _vocalic_r;
 position = "{-190, 178}";
 }
 );
@@ -11013,7 +11013,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _vocalic_r;
 position = "{-150, 159}";
 }
 );
@@ -11076,7 +11076,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _vocalic_r;
 position = "{-208, 223}";
 }
 );
@@ -11143,7 +11143,7 @@ name = Anchor40;
 position = "{-220, -47}";
 },
 {
-name = _Anchor22;
+name = _subjoined_ma;
 position = "{-220, 196}";
 }
 );
@@ -11198,7 +11198,7 @@ name = Anchor40;
 position = "{-180, -47}";
 },
 {
-name = _Anchor22;
+name = _subjoined_ma;
 position = "{-185, 194}";
 }
 );
@@ -11247,7 +11247,7 @@ name = Anchor40;
 position = "{-223, -47}";
 },
 {
-name = _Anchor22;
+name = _subjoined_ma;
 position = "{-223, 196}";
 }
 );
@@ -11300,7 +11300,7 @@ name = Anchor40;
 position = "{-262, -147}";
 },
 {
-name = _Anchor22;
+name = _subjoined_ma;
 position = "{-224, 186}";
 }
 );
@@ -11343,7 +11343,7 @@ name = Anchor40;
 position = "{-281, -255}";
 },
 {
-name = _Anchor22;
+name = _subjoined_ma;
 position = "{-235, 116}";
 }
 );
@@ -11960,7 +11960,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor32;
+name = _subjoined_la;
 position = "{-183, 275}";
 }
 );
@@ -11999,7 +11999,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor32;
+name = _subjoined_la;
 position = "{-212, 337}";
 }
 );
@@ -12353,7 +12353,7 @@ name = Anchor40;
 position = "{-228, -12}";
 },
 {
-name = _Anchor18;
+name = _cauda;
 position = "{-211, 3}";
 },
 {
@@ -12404,7 +12404,7 @@ name = Anchor40;
 position = "{-135, -9}";
 },
 {
-name = _Anchor18;
+name = _cauda;
 position = "{-111, 3}";
 },
 {
