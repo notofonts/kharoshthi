@@ -329,7 +329,7 @@ name = blws;
 {
 code = "sub Da_khar E_khar by De_khar;";
 name = ss01;
-notes = "Name: ";
+notes = "Name: De ligature";
 },
 {
 code = "# Automatic Code Start\012\012pos SubVa.alt3 DotBelow_khar' <0 -200 0 0>;\012pos SubVa.alt3 Doublering_khar' <0 -180 0 0>;\012";
